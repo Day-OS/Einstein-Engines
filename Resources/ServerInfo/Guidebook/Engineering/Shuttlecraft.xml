@@ -1,10 +1,10 @@
 <Document>
-# Shuttle-craft
+# Criação de Naves
 
-Shuttle construction is simple and easy, albeit rather expensive and hard to pull off within an hour. It's a good activity if you have a significant amount of spare time on your hands and want a bit of a challenge.
+Construção de naves é simples e fácil, mas bem cara e difícil de se fazer dentro de uma hora. É uma boa atividade se voce tiver tempo de sobra nas suas mãos e quer um pequeno desafio.
 
-## Getting started
-<Box>Required parts:</Box>
+## Começando
+<Box>Partes Necessárias:</Box>
 <Box>
 <GuideEntityEmbed Entity="Thruster"/>
 <GuideEntityEmbed Entity="Gyroscope"/>
@@ -19,7 +19,7 @@ Shuttle construction is simple and easy, albeit rather expensive and hard to pul
 <GuideEntityEmbed Entity="APCBasic"/>
 </Box>
 
-<Box>Optional parts:</Box>
+<Box>Partes Opicionais:</Box>
 <Box>
 <GuideEntityEmbed Entity="AirCanister"/>
 <GuideEntityEmbed Entity="LightTube"/>
@@ -30,11 +30,10 @@ Shuttle construction is simple and easy, albeit rather expensive and hard to pul
 <GuideEntityEmbed Entity="MobCorgiIan"/>
 <GuideEntityEmbed Entity="NuclearBomb"/>
 </Box>
+Vá até o espaço com folhas de aço e hastes de metal em mãos, e quando você estiver a três ou mais metros da estação, clique perto ou debaixo de si, com as hastes em mãos. Isso vai colocar uma grade, que pode ser transformada em chapas de metal usando as folhas de metal. Expanda sua plataforma em grade clicando um pouco para fora com as hastes na mão.
 
-Head out into space with steel sheets and metal rods in hand, and once you're three or more meters away from the station, click near or under you with the rods in hand. This will place some lattice, which can then be turned into plating with the steel sheets. Expand your lattice platform by clicking just off the edge with rods in hand.
+A partir dai, depois que você tiver a forma que quiser, traga e instale os propulsores nas bordas. Eles precisam estar apontando para fora em direção ao espaço para funcionarem e não irão funcionar se tiver um tile no bocal. Instale o giroscópio onde é conveniente, e use a subestação e geradores para distrubuir energia. Construa uma parede em cima de um cabo MT e instale um APC para distribuir energia para os dispositivos.
 
-From there, once you have the shape you want, bring out and install thrusters at the edges. They must be pointing outward into space to function and will not fire if there's a tile in the way of the nozzle. Install a gyroscope where convenient, and use your substation and generator to set up power. Construct a wall on top of an MV cable and then install an APC on that to power the devices onboard.
-
-Finally, install the shuttle computer wherever is convenient and ensure all your thrusters and gyroscopes are receiving power. If they are, congratulations, you should have a functional shuttle! Making it livable and good looking is left as an exercise to the reader.
+E finalmente, instale um console de naves onde seja mais conveniente e tenha certeza que todos os propulsores e o giroscopio esteja recebendo energia. Se estiverem, parabéns, voce deve ter uma nave funcional! Fazer ela virar habitável e bonita é um exercício a mais para o leitor.
 
 </Document>

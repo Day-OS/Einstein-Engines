@@ -1,9 +1,9 @@
 ﻿<Document>
-  # Security
-  Ensuring the safety of both station and crew is number one for Security. Be it Syndicate Agents, Nuclear Operatives, Infestations or just unruly staff. Security are on hand to maintain order and control crowds.
+  # Segurança
+  Garantir a segurança da estação e da tripulação é o número um para Segurança. Sejam agentes sindicais, agentes nucleares, infestações ou apenas funcionários indisciplinados. A segurança está disponível para manter a ordem e controlar as multidões.
 
-  ## Gear
-  First we have non-lethals a step above simply telling someone to cooperate with instructions. Both the stunbaton and disabler are capable of limiting the movement of an assailant, whereas handcuffs can be applied to deny a criminal free movement and access to their hands.
+  ## Equipamento
+  Primeiro, temos os não letais, um passo acima, simplesmente dizendo a alguém para cooperar com as instruções. Tanto o bastão de choque, ou "Stun Baton", quanto o desabilitador, ou "Disabler", são capazes de limitar o movimento de um agressor, enquanto as algemas podem ser aplicadas para negar ao criminoso a liberdade de movimento e o acesso às suas mãos.
   <Box>
     <GuideEntityEmbed Entity="Stunbaton"/>
     <GuideEntityEmbed Entity="Handcuffs"/>
@@ -11,17 +11,17 @@
   </Box>
 
   ## Flashes
-  Flashes are an effective tool for dispersing crowds and apprehending particularly evasive targets, with a large area of effect blinding all those without protection.
-  It is worth noting that flashes can be both used in a large area 	([color=yellow]Z[/color] hotkey) and if you attack somebody with it while [color=red]harm mode[/color] is active. Important to note that localized flashes last [color=yellow]2.5[/color] times as long as large area ones.
-  Security and [color=#a4885c]some[/color] other members of staff have eye protection from flashbangs and flashes.
+  Os flashes são uma ferramenta eficaz para dispersar multidões e apreender alvos particularmente evasivos, com uma grande área de efeito cegando todos aqueles que não estão protegidos.
+  É importante notar que os flashes podem ser usados ​​em uma área grande (tecla de atalho [color=yellow]Z[/color]) e se você atacar alguém com ele enquanto o [color=red]harm mode[/color] estiver ativo. É importante observar que os flashes localizados duram [color=yellow]2,5[/color] vezes mais que os de grandes áreas.
+  A segurança e [color=#a4885c]alguns[/color] outros membros da equipe têm proteção para os olhos contra flashbangs e flashes.
   <Box>
     <GuideEntityEmbed Entity="Flash"/>
     <GuideEntityEmbed Entity="ClothingEyesGlassesSecurity"/>
     <GuideEntityEmbed Entity="GrenadeFlashBang"/>
 
   </Box>
-  ## Lethals
-  Should the situation dictate, Security have access to laser rifles, shotguns, handguns and automatic rifles able to put down substancial fire against any who would stand against the station.
+  ## Letais
+  Se a situação assim o exigir, a Segurança terá acesso a espingardas laser, espingardas, revólveres e espingardas automáticas capazes de abater fogo substancial contra qualquer pessoa que se oponha à estação.
   <Box>
   <GuideEntityEmbed Entity="WeaponLaserCarbine"/>
   <GuideEntityEmbed Entity="WeaponShotgunKammerer"/>

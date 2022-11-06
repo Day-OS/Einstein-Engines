@@ -1,0 +1,1 @@
+station-event-vent-creatures-start-announcement = Um grande fluxo de formas de vida desconhecidas foram detectados residindo dentro dos sistemas de ventilação da estação. Por favor, livre-se dessas criaturas antes que comece a afetar a produtividade
