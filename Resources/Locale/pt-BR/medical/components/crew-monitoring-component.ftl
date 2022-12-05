@@ -1,4 +1,4 @@
-﻿## UI
+﻿﻿## UI
 
 crew-monitoring-user-interface-title = Console de Monitoramento da Tripulação
 

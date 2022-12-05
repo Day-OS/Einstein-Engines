@@ -1,4 +1,4 @@
-﻿device-pda-slot-component-slot-name-cartridge = Cartridge
+device-pda-slot-component-slot-name-cartridge = Cartridge
 
 default-program-name = Programa
 notekeeper-program-name = Bloco de notas

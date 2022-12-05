@@ -41,3 +41,12 @@ reagent-desc-soysauce = Um salgado tempero a base de soja.
 
 reagent-name-table-salt = sal de cozinha
 reagent-desc-table-salt = Comumente conhecido como apenas sal, o Cloreto de Sódio é frequentemente usado para temperar a comida.
+
+reagent-name-tomatosauce = molho de tomate
+reagent-desc-tomatosauce = Tomate com sal e ervas.
+
+reagent-name-pesto = pesto
+reagent-desc-pesto = Uma combinação de sal, ervas, alho, óleo e pinhões.
+
+reagent-name-bechamel = molho bechamel
+reagent-desc-bechamel = Um molho branco clássico comum a várias culturas europeias

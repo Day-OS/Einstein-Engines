@@ -16,6 +16,8 @@ revenant-soul-yield-low = {CAPITALIZE(THE($target))} tem uma alma abaixo da méd
 revenant-soul-begin-harvest = {CAPITALIZE(THE($target))} derrepente é suspendido levemente no ar e a pele {POSS-ADJ($target)} tornando cinzenta.
 revenant-soul-finish-harvest = {CAPITALIZE(THE($target))} cai duro no chão!
 
+revenant-psionic-power = um poder espiritual
+
 # UI
 revenant-user-interface-title = Loja de Habilidades
 revenant-user-interface-essence-amount = [color=plum]{$amount}[/color] Essência Roubada

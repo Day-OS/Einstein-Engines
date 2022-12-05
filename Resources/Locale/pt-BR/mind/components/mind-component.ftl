@@ -2,6 +2,8 @@
 
 comp-mind-ghosting-prevented = Você não é capaz de dar ghost agora.
 
+comp-mind-ghosting-prevented = Você não é capaz de dar ghost agora.
+
 ## Messages displayed when a body is examined and in a certain state
 
 comp-mind-examined-catatonic = { CAPITALIZE(SUBJECT($ent)) } está totalmente catatônico. O estresse da vida no espaço deve ter sido demais. Qualquer recuperação é improvável.

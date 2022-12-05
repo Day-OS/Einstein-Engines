@@ -24,7 +24,7 @@ air-alarm-ui-window-alarm-state-indicator = Status: [color={$color}]{$state}[/co
 
 air-alarm-ui-window-tab-vents = Ventilações
 air-alarm-ui-window-tab-scrubbers = Depuradores
-air-alarm-ui-window-tab-sensors = Sensores
+air-alarm-ui-window-tab-thresholds = Limites
 
 air-alarm-ui-gases = {$gas}: {$amount} mol ({$percentage}%)
 air-alarm-ui-gases-indicator = {$gas}: [color={$color}]{$amount} mol ({$percentage}%)[/color]

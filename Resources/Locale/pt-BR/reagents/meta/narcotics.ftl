@@ -19,7 +19,7 @@ reagent-desc-thc-oil = Óleo de THC puro, extraído das folhas da planta de cann
 reagent-name-bananadine = bananadina
 reagent-desc-bananadine = Um psicodélico suave encontrado em pequenos traços nas cascas de banana.
 
-reagent-name-nicotine = nicotine
+reagent-name-nicotine = nicotina
 reagent-desc-nicotine = Perigoso e altamente viciante, mas é o que a propaganda diz.
 
 reagent-name-impedrezene = impedrezene

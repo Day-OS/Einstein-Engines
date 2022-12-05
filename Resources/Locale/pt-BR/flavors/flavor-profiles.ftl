@@ -8,6 +8,7 @@ flavor-profile-unknown = Tem um gosto indescritível.
 # will go in front so you don't get this like "Tastes like tomatoes, sweet and spicy",
 # instead, you get "Tastes sweet, spicy and like tomatoes".
 
+flavor-base-acidic = ácido
 flavor-base-savory = salgado
 flavor-base-sweet = doce
 flavor-base-salty = salgado demais
@@ -116,6 +117,7 @@ flavor-complex-bungo = de bungo
 flavor-complex-raisins = de uva passa
 flavor-complex-orange = de laranja
 flavor-complex-watermelon = de melancia
+flavor-complex-nuggie = de "frango"
 flavor-complex-garlic = de alho
 flavor-complex-grape = de uva
 flavor-complex-berry = de bagas
@@ -247,9 +249,29 @@ flavor-complex-pilk = de leite doce
 ## Generic flavors.
 flavor-complex-medicine = de remédio
 
-flavor-complex-carpet = de pelo
+flavor-complex-carpet = como um punhado de pele
 flavor-complex-bee = inacreditável
-flavor-complex-sax = de jazz
+flavor-complex-sax = como jazz
 flavor-complex-bottledlightning = como um relâmpago engarrafado
 flavor-complex-punishment = de punição
 flavor-weh = like weh
+
+## Nyano???
+flavor-complex-enthralling = apaixonante
+flavor-complex-sublime = sublime
+flavor-complex-holy = celestial
+flavor-base-seeds = sementes
+flavor-complex-cotton = como algodão
+flavor-complex-vanilla = como baunilha
+flavor-complex-sake = como arroz doce e alcoólico
+flavor-complex-soju = como arroz alcoólico ousado
+flavor-complex-orangecreamcicle = como suco de laranja cremoso e alcoólico
+flavor-complex-silverjack = como um sonho de rockstars
+flavor-complex-brainbomb = como danos ao fígado
+flavor-complex-atomicpunch = como radiação agridoce
+flavor-complex-circusjuice = Extremamente engraçado
+flavor-complex-pinkdrink = esmagadoramente como rosa
+flavor-complex-sapopicante = como tomates e especiarias
+flavor-complex-graveyard = como uma bebida gelada forte
+flavor-complex-bubbletea = como doçura cremosa
+flavor-complex-corncob = como uma piada doentia

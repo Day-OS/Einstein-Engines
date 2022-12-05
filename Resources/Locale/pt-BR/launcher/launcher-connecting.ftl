@@ -4,6 +4,7 @@ connecting-title = Space Station 14
 connecting-exit = Sair
 connecting-retry = Repetir
 connecting-reconnect = Reconectar
+connecting-redirect = Conectar a outro servidor
 connecting-redial = Reiniciar
 connecting-redial-wait = Espere: { TOSTRING($time, "G3") }
 connecting-in-progress = Conectando ao servidor...

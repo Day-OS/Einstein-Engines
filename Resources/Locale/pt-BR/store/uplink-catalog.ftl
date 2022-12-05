@@ -29,6 +29,11 @@ uplink-gloves-north-star-desc = Um par de luvas que reduz drasticamente o tempo 
 # Explosive
 uplink-explosive-grenade-name = Granada Explosiva
 uplink-explosive-grenade-desc = Uma granada simplista com um fusível de três segundos e meio de comprimento, destinada a ferir pessoas. Causa danos mínimos do casco.
+uplink-kanabou-name = Kanabou
+uplink-kanabou-desc = Uma arma para aqueles que desejam abrir mão da sutileza. Particularmente adequado para oni.
+
+uplink-rickenbacker4001-name = Rickenbacker 4001
+uplink-rickenbacker4001-desc = Quando se trata disso, há muito poucas pessoas que irão balançar o bastão.
 
 uplink-flash-grenade-name = Flashbang
 uplink-flash-grenade-desc = Um flashbang de edição padrão, capaz de cegar e retardar qualquer pessoa sem proteção adequada. Isso, é claro, inclui você; certifique-se de que você está devidamente equipado antes de usá-lo.
@@ -366,6 +371,8 @@ uplink-slipocalypse-clustersoap-desc = Espalha pequenos pedaços de sabonete da 
 
 uplink-mobcat-microbomb-name = SindiGato
 uplink-mobcat-microbomb-desc = Um gato equipado com um implante de microbomba. Explode quando gravemente ferido. Pode morder dolorosamente
+uplink-nocturine-gland-injector-name = Glândula Injetora Nocturina
+uplink-nocturine-gland-injector-desc = Faz com que suas presas injetem nocturina sempre que você suga sangue.
 
 # Pointless
 uplink-revolver-cap-gun-name = Revólver de Espoleta

@@ -4,6 +4,11 @@ research-console-menu-title = Console de Pequisa
 research-console-menu-research-points-text = Pontos de pesquisa: [color=orchid]{$points}[/color]
 research-console-menu-main-discipline = Disciplina principal: [color={$color}]{$name}[/color]
 research-console-menu-server-selection-button = Lista de servidores
+research-console-menu-unlocked-technologies-label = Tecnologia liberada
+research-console-menu-unlockable-technologies-label = Tecnologia desbloqueável
+research-console-menu-future-technologies-label = Tecnologia futura
+research-console-menu-points-per-second-text = Pontos por segundo {$pointsPerSecond}
+research-console-menu-points-limit-text = Limite de Pontos Passivos: {$pointsLimit}
 research-console-menu-server-sync-button = Sincronizar
 research-console-menu-server-research-button = Pesquisar
 research-console-available-text = Technologies Pesquisáveis

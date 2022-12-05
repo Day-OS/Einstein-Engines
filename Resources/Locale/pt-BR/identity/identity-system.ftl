@@ -7,3 +7,5 @@ identity-age-old = idoso(a)
 identity-gender-feminine = mulher
 identity-gender-masculine = homem
 identity-gender-person = pessoa
+
+identity-presumed-name-outed = {$trueName} (as {$presumedName})

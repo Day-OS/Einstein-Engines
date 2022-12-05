@@ -27,3 +27,5 @@ injector-component-drawing-user = Você começa a puxar com a agulha.
 injector-component-injecting-user = Você começa a injetar com a agulha.
 injector-component-drawing-target = {CAPITALIZE(THE($user))} está tentando te injetar algo com uma agulha!
 injector-component-injecting-target = {CAPITALIZE(THE($user))} está tentando tirar seu sangue com uma agulha!
+## failure
+injector-component-failure-hardsuit = Você não consege perfurar a chapa de aço com a agulha!

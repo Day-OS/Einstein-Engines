@@ -54,6 +54,7 @@ petting-failure-bear = Você tenta acariciar {THE($target)}, mas ele(a) rosna, f
 petting-failure-monkey = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} quase morde seus dedos!
 petting-failure-nymph = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} move seus galhos para longe.
 petting-failure-shadow = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} mas sua mão passa através da fria escuridão de seu corpo.
+petting-failure-pibble = Você tenta acariciar {THE($target)}, e {SUBJECT($target)} avança em você!
 
 ## Petting silicons
 
@@ -88,3 +89,4 @@ hugging-success-generic-target = { CAPITALIZE(THE($user)) } te abraçou.
 petting-success-tesla = Você acaricia {THE($target)}, violando as leis da natureza e da física.
 
 petting-failure-tesla = Você estende a mão em direção a {THE($target)}, mas ela zapeia sua mão para longe.
+hugging-success-generic-target = { CAPITALIZE(THE($user)) } te abraçou.

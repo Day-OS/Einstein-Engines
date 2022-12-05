@@ -1,5 +1,6 @@
 lobby-state-paused = Pausado
 lobby-state-soon = Em breve
+lobby-state-preloading = Em breve
 lobby-state-right-now-question = Agora?
 lobby-state-right-now-confirmation = Agora
 lobby-state-round-start-countdown-text = A rodada começa em: {$timeLeft}

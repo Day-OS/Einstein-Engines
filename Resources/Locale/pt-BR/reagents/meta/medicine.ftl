@@ -1,5 +1,5 @@
 reagent-name-cryptobiolin = cryptobiolina
-reagent-desc-cryptobiolin = Causa confusão e tontura.
+reagent-desc-cryptobiolin = Causa confusão e tontura. Temporariamente protege de e neutraliza habilidades psiônicas.
 
 reagent-name-dylovene = dylovene
 reagent-desc-dylovene = Um anti-toxina de amplo espectro, que trata os danos à toxina em organismos. A overdose causará vômito, tontura e dor.

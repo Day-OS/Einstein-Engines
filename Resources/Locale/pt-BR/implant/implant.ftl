@@ -23,3 +23,16 @@ scramble-implant-activated-popup = Você sente na pele sua aparência se alterar
 
 deathrattle-implant-dead-message = {$user} morreu em {$position}.
 deathrattle-implant-critical-message = Sinais de vida do {$user} estão críticos, assistência imediata necessária em {$position}.
+open-uplink-implant-action-name = Abrir Uplink
+open-uplink-implant-action-description = Abre o uplink do sindicato embutido sob sua pele
+
+use-emp-implant-action-name = Ativar EMP
+use-emp-implant-action-description = Aciona um pequeno pulso EMP ao seu redor
+
+use-dna-scrambler-implant-action-name = Misturar DNA
+use-dna-scrambler-implant-action-description = LING NA MANUTENÇÃO!
+
+## Implant Popups
+
+scramble-attempt-while-scrambled-popup = DNA embaralhado detectado, extraia o implante antes de desfazer a confusão atual.
+scramble-implant-activated-popup = Você se transformou em {$identity}

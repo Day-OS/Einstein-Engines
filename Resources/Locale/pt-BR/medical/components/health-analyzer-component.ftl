@@ -35,3 +35,8 @@ health-analyzer-window-damage-type-Radiation = Radiação
 health-analyzer-window-damage-group-Genetic = Genético
 health-analyzer-window-damage-type-Cellular = Celular
 health-analyzer-window-malnutrition = Gravemente desnutrido
+
+health-analyzer-window-damage-group-Caustic = Cáustico
+
+health-analyzer-window-damage-group-Immaterial = Imaterial
+health-analyzer-window-damage-type-Holy = Sagrado

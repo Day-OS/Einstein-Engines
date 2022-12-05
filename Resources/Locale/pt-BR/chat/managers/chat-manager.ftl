@@ -7,8 +7,8 @@ chat-manager-looc-chat-enabled-message = Chat LOOC foi habilitado.
 chat-manager-looc-chat-disabled-message = Chat LOOC foi desabilitado.
 chat-manager-dead-looc-chat-enabled-message = Jogadores mortos agora podem usar LOOC.
 chat-manager-dead-looc-chat-disabled-message = Jogadores mortos não podem mais usar LOOC.
-chat-manager-crit-looc-chat-enabled-message = Jogadores em crit agora podem usar LOOC.
-chat-manager-crit-looc-chat-disabled-message = Jogadores em crit não podem mais usar LOOC.
+chat-manager-crit-looc-chat-enabled-message = Jogadores em estado critico agora podem usar LOOC.
+chat-manager-crit-looc-chat-disabled-message = Jogadores em estado critico não podem mais usar LOOC.
 chat-manager-admin-ooc-chat-enabled-message = Chat Admin OOC foi habilitado.
 chat-manager-admin-ooc-chat-disabled-message = Chat Admin OOC foi desabilitado.
 

@@ -1,4 +1,4 @@
-﻿prayer-verbs-subtle-message = Mensagem Sutil
+﻿﻿prayer-verbs-subtle-message = Mensagem Sutil
 prayer-verbs-pray = Orar
 prayer-verbs-call = Chamar
 prayer-chat-notify-pray = ORAÇÃO

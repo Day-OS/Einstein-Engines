@@ -224,3 +224,11 @@ ghost-role-information-syndicate-reinforcement-rules = As regras normais para an
 ghost-role-information-syndicate-monkey-reinforcement-name = Agente Macaco do Sindicato
 ghost-role-information-syndicate-monkey-reinforcement-description = Alguém precisa de reforços. Você, um macaco treinado, irá ajudá-los.
 ghost-role-information-syndicate-monkey-reinforcement-rules = As regras normais para antagonistas do sindicato se aplicam. Trabalhe com quem o chamou e não o prejudique.
+ghost-role-information-cancer-mouse-name = Rato Canceroso
+ghost-role-information-cancer-mouse-description = Um Rato Canceroso.
+
+ghost-role-information-medibot-name = Medibot
+ghost-role-information-medibot-description = Clique nas pessoas para curá-las. Cure qualquer pessoa que seu autoinjetor permitir.
+
+ghost-role-information-cleanbot-name = CleanBot
+ghost-role-information-cleanbot-description = Clique nas poças para limpá-las.

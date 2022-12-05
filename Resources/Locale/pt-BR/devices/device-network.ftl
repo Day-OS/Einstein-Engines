@@ -34,9 +34,9 @@ device-address-prefix-smes = SMS-
 #PDAs and terminals
 device-address-prefix-console = CLS-
 device-address-prefix-fire-alarm = FIR-
-device-address-prefix-air-alarm = AIR-
 
 device-address-prefix-sensor-monitor = MON-
+device-address-prefix-air-alarm = AR-
 
 device-address-examine-message = O endereço do dispositivo é {$address}.
 

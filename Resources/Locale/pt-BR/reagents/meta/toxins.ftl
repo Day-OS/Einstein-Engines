@@ -75,3 +75,22 @@ reagent-desc-vestine = Tem uma reação adversa no corpo, causando grande agita�
 
 reagent-name-tazinide = tazinide
 reagent-desc-tazinide = Uma mistura metálica altamente perigosa que pode interferir na maior parte dos movimentos através de uma corrente eletrizante.
+reagent-name-prometheum = prometheum
+reagent-desc-prometheum = A complex superdrug our bodies could produce if we could only unlock our potential.
+
+reagent-name-soulbreaker-toxin = soulbreaker toxin
+reagent-desc-soulbreaker-toxin = An anti-psionic about 4 times as powerful as mindbreaker toxin.
+reagent-name-human-muta-tox = toxina de mutação humana
+reagent-desc-human-muta-tox = Uma droga capaz de transformar qualquer humanóide em humano.
+
+reagent-name-slime-person-muta-tox =  toxina de mutação slime
+reagent-desc-slime-person-muta-tox = Uma droga capaz de transformar qualquer humanóide em pessoa slime.
+
+reagent-name-skeleton-muta-tox = skin hurting juice
+reagent-desc-skeleton-muta-tox = Uma droga que dói em tudo, seguido de tudo menos os essenciais cairem. Transforma qualquer humanóide em um esqueleto.
+
+reagent-name-reptilian-muta-tox =  toxina de mutação reptiliana
+reagent-desc-reptilian-muta-tox = Uma droga capaz de transformar qualquer humanóide em reptiliano.
+
+reagent-name-monkey-muta-tox =  toxina de mutação de macaco
+reagent-desc-monkey-muta-tox = Uma droga capaz de transformar qualquer humanóide em macaco.

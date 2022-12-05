@@ -23,6 +23,8 @@ trait-paracusia-desc = Você ouve sons que não estão realmente ali
 
 trait-unrevivable-name = Não revivível
 trait-unrevivable-desc = Não pode ser revivido por defibriladores
+trait-uncloneable-name = Não clonável
+trait-uncloneable-desc = Não pode ser clonado
 
 trait-pirate-accent-name = Sotaque Pirata (em inglês)
 trait-pirate-accent-desc = Não podes parar de falar como um pirata!
@@ -38,3 +40,8 @@ trait-socialanxiety-desc = Você fica ansioso quando fala e gagueja.
 
 trait-snoring-name = Ronco
 trait-snoring-desc = Você roncará quando dormir.
+trait-archaic-accent-name = Sotaque Arcaico (em inglês)
+trait-archaic-accent-desc = Você fala de uma maneira que os outros consideram antiquada
+
+trait-wheelchair-bound-name = Presa à cadeira de rodas
+trait-wheelchair-bound-desc = Você não pode se mover sem sua cadeira de rodas. Cadeira de rodas incluída.

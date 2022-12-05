@@ -1,0 +1,9 @@
+guide-entry-reverse-engineering = Engenharia reversa
+guide-entry-epistemics = Epistêmica
+guide-entry-psionics = Psiônicos
+guide-entry-altars-golemancy = Altares e Golemância
+guide-entry-space-law = Lei Espacial
+guide-entry-jurisdiction = Jurisdição
+guide-entry-trial-prodedure = Procedimento de julgamento
+guide-entry-shogi = Shogi
+guide-entry-charges-and-times = Acusações e Sentenças

@@ -90,12 +90,18 @@ barsign-prototype-description-enginechange = Ainda esperando.
 barsign-prototype-name-emprah = Por Emprah!
 barsign-prototype-description-emprah = Curtido por fanáticos, hereges e clientes sem cérebro do tipo.
 
-## Spacebucks
-barsign-prototype-name-spacebucks = Spacebucks
-barsign-prototype-description-spacebucks = Você não pode fugir deles, mesmo no espaço.
-
 ## EmpBarSign
 barsign-prototype-description-empbarsign = Algo deu muito errado.
 
 ## SignOff
 barsign-prototype-description-sign-off = Esse letreiro não está ligado.
+
+# Nyano specific sign
+## Whiskey Echoes
+barsign-prototype-name-whiskeyecho = Whiskey Echoes
+barsign-prototype-description-whiskeyecho = Ei, rapaz! Sente-se e tome uma bebida! Não importa a sua afiliação, o slogan aqui é 'Morte à sobriedade!'
+
+# Nyano specific sign
+## Klub Skub
+barsign-prototype-name-klubskub = Klub Skub
+barsign-prototype-description-klubskub = Skub!

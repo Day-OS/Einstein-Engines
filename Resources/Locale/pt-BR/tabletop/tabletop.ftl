@@ -20,3 +20,5 @@ tabletop-checkers-board-name = Damas
 
 ## Battlemap
 tabletop-battlemap-board-name = Battlemap
+## Shogi
+tabletop-shogi-board-name = Shogi

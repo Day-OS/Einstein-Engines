@@ -11,6 +11,7 @@ microwave-component-suicide-multi-head-message = Você cozinha suas cabeças!
 microwave-component-suicide-message = Você cozinha sua cabeça!
 microwave-component-interact-full = Está cheio.
 microwave-component-interact-item-too-big = { CAPITALIZE(THE($item)) } é muito grande para caber no micro-ondas!
+microwave-component-upgrade-cook-time = tempo de cozinhar
 
 ## Bound UI
 

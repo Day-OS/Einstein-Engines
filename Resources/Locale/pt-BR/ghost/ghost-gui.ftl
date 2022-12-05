@@ -3,6 +3,10 @@ ghost-gui-ghost-warp-button = Teleportar
 ghost-gui-ghost-roles-button = Funções Fantasmas ({$count})
 ghost-gui-toggle-ghost-visibility-button = Alternar Fantasmas
 ghost-gui-toggle-ghost-visibility-popup = Alternou visibilidade de fantasmas.
+ghost-gui-toggle-ghost-visibility-name = Alternar Fantasmas
+ghost-gui-toggle-ghost-visibility-desc = Alternar a visibilidade de outros fantasmas.
+ghost-gui-toggle-lighting-manager-name = Alternar Toda a Iluminação
+ghost-gui-toggle-lighting-manager-desc = Alternar toda a renderização de iluminação para observar melhor as áreas escuras.
 ghost-gui-toggle-lighting-manager-popup = Alternou toda a iluminação.
 ghost-gui-toggle-fov-popup = Alternou o campo de visão.
 
@@ -24,3 +28,8 @@ ghost-return-to-body-text = Você está sendo revivido! Retornar ao seu corpo?
 
 ghost-roles-window-redirect-label = Redirecionar para outro servidor
 ghost-roles-window-redirect = Redirecionar
+ghost-roles-window-redirect-label = Ou você pode se conectar a outro servidor.
+ghost-roles-window-redirect-label-empty = Você pode se conectar a outro servidor.
+ghost-roles-window-redirect = Conectar
+
+ghost-gui-toggle-ghost-visibility-popup = Alternou visibilidade de fantasmas.
