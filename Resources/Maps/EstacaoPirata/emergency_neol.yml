@@ -733,14 +733,14 @@ entities:
       type: Transform
 - proto: AirlockBarGlassLocked
   entities:
-  - uid: 4
+  - uid: 3
     components:
     - pos: 2.5,2.5
       parent: 1
       type: Transform
 - proto: AirlockBarLocked
   entities:
-  - uid: 5
+  - uid: 4
     components:
     - rot: 3.141592653589793 rad
       pos: 1.5,5.5
@@ -748,7 +748,7 @@ entities:
       type: Transform
 - proto: AirlockBrigGlassLocked
   entities:
-  - uid: 6
+  - uid: 5
     components:
     - rot: 3.141592653589793 rad
       pos: -3.5,-10.5
@@ -756,7 +756,7 @@ entities:
       type: Transform
 - proto: AirlockCommandGlassLocked
   entities:
-  - uid: 7
+  - uid: 6
     components:
     - pos: -3.5,7.5
       parent: 1
@@ -764,7 +764,7 @@ entities:
     - links:
       - 750
       type: DeviceLinkSink
-  - uid: 8
+  - uid: 7
     components:
     - pos: 4.5,7.5
       parent: 1
@@ -772,7 +772,7 @@ entities:
     - links:
       - 750
       type: DeviceLinkSink
-  - uid: 9
+  - uid: 8
     components:
     - rot: 3.141592653589793 rad
       pos: -3.5,10.5
@@ -781,7 +781,7 @@ entities:
     - links:
       - 752
       type: DeviceLinkSink
-  - uid: 10
+  - uid: 9
     components:
     - rot: 3.141592653589793 rad
       pos: 4.5,10.5
@@ -792,7 +792,7 @@ entities:
       type: DeviceLinkSink
 - proto: AirlockEngineeringLocked
   entities:
-  - uid: 3
+  - uid: 10
     components:
     - pos: 1.5,-11.5
       parent: 1
@@ -2125,6 +2125,131 @@ entities:
     - pos: 4.5,12.5
       parent: 1
       type: Transform
+  - uid: 970
+    components:
+    - pos: 2.5,10.5
+      parent: 1
+      type: Transform
+  - uid: 971
+    components:
+    - pos: 2.5,11.5
+      parent: 1
+      type: Transform
+  - uid: 972
+    components:
+    - pos: 3.5,11.5
+      parent: 1
+      type: Transform
+  - uid: 973
+    components:
+    - pos: 4.5,11.5
+      parent: 1
+      type: Transform
+  - uid: 974
+    components:
+    - pos: 4.5,10.5
+      parent: 1
+      type: Transform
+  - uid: 975
+    components:
+    - pos: 4.5,9.5
+      parent: 1
+      type: Transform
+  - uid: 976
+    components:
+    - pos: 4.5,8.5
+      parent: 1
+      type: Transform
+  - uid: 977
+    components:
+    - pos: 3.5,8.5
+      parent: 1
+      type: Transform
+  - uid: 978
+    components:
+    - pos: 2.5,8.5
+      parent: 1
+      type: Transform
+  - uid: 979
+    components:
+    - pos: 1.5,8.5
+      parent: 1
+      type: Transform
+  - uid: 980
+    components:
+    - pos: 0.5,8.5
+      parent: 1
+      type: Transform
+  - uid: 981
+    components:
+    - pos: -0.5,8.5
+      parent: 1
+      type: Transform
+  - uid: 982
+    components:
+    - pos: -1.5,8.5
+      parent: 1
+      type: Transform
+  - uid: 983
+    components:
+    - pos: -2.5,8.5
+      parent: 1
+      type: Transform
+  - uid: 987
+    components:
+    - pos: 4.5,-0.5
+      parent: 1
+      type: Transform
+  - uid: 988
+    components:
+    - pos: 4.5,0.5
+      parent: 1
+      type: Transform
+  - uid: 989
+    components:
+    - pos: 3.5,0.5
+      parent: 1
+      type: Transform
+  - uid: 990
+    components:
+    - pos: 2.5,0.5
+      parent: 1
+      type: Transform
+  - uid: 991
+    components:
+    - pos: 1.5,0.5
+      parent: 1
+      type: Transform
+  - uid: 992
+    components:
+    - pos: 0.5,0.5
+      parent: 1
+      type: Transform
+  - uid: 993
+    components:
+    - pos: -0.5,0.5
+      parent: 1
+      type: Transform
+  - uid: 994
+    components:
+    - pos: -1.5,0.5
+      parent: 1
+      type: Transform
+  - uid: 995
+    components:
+    - pos: -2.5,0.5
+      parent: 1
+      type: Transform
+  - uid: 996
+    components:
+    - pos: -3.5,0.5
+      parent: 1
+      type: Transform
+  - uid: 997
+    components:
+    - pos: -3.5,-0.5
+      parent: 1
+      type: Transform
 - proto: CableMV
   entities:
   - uid: 265
@@ -2500,6 +2625,21 @@ entities:
   - uid: 339
     components:
     - pos: -3.5,9.5
+      parent: 1
+      type: Transform
+  - uid: 984
+    components:
+    - pos: -2.5,0.5
+      parent: 1
+      type: Transform
+  - uid: 985
+    components:
+    - pos: -3.5,0.5
+      parent: 1
+      type: Transform
+  - uid: 986
+    components:
+    - pos: -3.5,-0.5
       parent: 1
       type: Transform
 - proto: CableTerminal
@@ -4341,6 +4481,16 @@ entities:
     - pos: 2.5,-15.5
       parent: 1
       type: Transform
+  - uid: 967
+    components:
+    - pos: 4.5,-0.5
+      parent: 1
+      type: Transform
+  - uid: 969
+    components:
+    - pos: 2.5,10.5
+      parent: 1
+      type: Transform
 - proto: GravityGeneratorMini
   entities:
   - uid: 596
@@ -5269,9 +5419,9 @@ entities:
       parent: 1
       type: Transform
     - linkedPorts:
-        7:
+        6:
         - Pressed: DoorBolt
-        8:
+        7:
         - Pressed: DoorBolt
       type: DeviceLinkSource
   - uid: 751
@@ -5300,9 +5450,9 @@ entities:
         - Pressed: Toggle
         46:
         - Pressed: Toggle
-        9:
+        8:
         - Pressed: DoorBolt
-        10:
+        9:
         - Pressed: DoorBolt
       type: DeviceLinkSource
 - proto: SignBio
@@ -5407,6 +5557,12 @@ entities:
   - uid: 767
     components:
     - pos: 2.5,-12.5
+      parent: 1
+      type: Transform
+  - uid: 968
+    components:
+    - rot: 3.141592653589793 rad
+      pos: -3.5,-0.5
       parent: 1
       type: Transform
 - proto: Table
