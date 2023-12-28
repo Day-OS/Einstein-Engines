@@ -3,7 +3,6 @@
   mapName: 'Rad'
   mapPath: /Maps/EstacaoPirata/radstation.yml
   minPlayers: 35
-  maxPlayers: 60
   stations:
     RadStation:
       stationProto: StandardNanotrasenStation
