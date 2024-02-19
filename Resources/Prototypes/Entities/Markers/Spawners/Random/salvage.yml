@@ -15,7 +15,7 @@
       rarePrototypes:
         - SalvageHumanCorpse
         - CrateMaterialPlasteel
-        - CrateMaterialWood
+#        - CrateMaterialWood
         - CrateMaterialPlastic
         - CrateSalvageEquipment
         - CrateMaterialSteel
@@ -23,7 +23,7 @@
         - CrateServiceJanitorialSupplies
         - CrateHydroponicsSeedsMedicinal
         - CrateEmergencyInternals
-        - CrateFoodMRE
+#        - CrateFoodMRE
         - CrateMaterialTextiles
         - CrateMedicalSupplies
         - CrateEngineeringCableBulk
@@ -31,12 +31,37 @@
         - CrateServiceBooks
         - CrateServiceSmokeables
         - CrateTrashCartFilled
+        - CrateChemistryP
+        - CrateChemistryS
+        - CrateChemistryD
+        - CrateEmergencyFire
+        - CrateEmergencyInflatablewall
+        - CrateEngineeringGear
+        - CrateEngineeringToolbox
+        - CrateEngineeringCableBulk
+        - CrateEngineeringElectricalSupplies
+        - CrateEngineeringJetpack
+        - CrateEngineeringMiniJetpack
+        - CrateEngineeringAMEJar
+        - CrateEngineeringSolar
+        - CrateFunPlushie
+        - CrateFunInstrumentsVariety
+        - CrateFunArtSupplies
+        - CrateFunBoardGames
+        - CrateFunPirate
+        - CrateFunToyBox
+        - CrateFunMysteryFigurines
+        - CrateFunDartsSet
+        - CrateChemistrySupplies
+        - CrateSecurityArmor
+        - CrateSecurityHelmet
+        - CrateServiceTheatre
         - ClosetMaintenanceFilledRandom
         - ClosetEmergencyFilledRandom
       rareChance: 0.4
       prototypes:
         - CrateSalvageAssortedGoodies
-      chance: 0.9
+      chance: 0.3
       offset: 0.0
 
 - type: entity
