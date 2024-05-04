@@ -20096,13 +20096,6 @@ entities:
     - pos: 8.5,-54.5
       parent: 2
       type: Transform
-- proto: BorgModuleGasAnalyzer
-  entities:
-  - uid: 1053
-    components:
-    - pos: 2.5239935,-58.49668
-      parent: 2
-      type: Transform
 - proto: BoxBeaker
   entities:
   - uid: 1054
@@ -20577,13 +20570,11 @@ entities:
     - pos: 13.706232,-4.671299
       parent: 2
       type: Transform
-    - type: ItemCooldown
   - uid: 1139
     components:
     - pos: 10.4830065,-37.458145
       parent: 2
       type: Transform
-    - type: ItemCooldown
 - proto: BoxShotgunIncendiary
   entities:
   - uid: 1140
@@ -58837,15 +58828,6 @@ entities:
       pos: -13.656745,43.72897
       parent: 2
       type: Transform
-  - uid: 8536
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8535
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
 - proto: CigPackMixed
   entities:
   - uid: 8558
@@ -58892,42 +58874,6 @@ entities:
       pos: 7.5,11.5
       parent: 2
       type: Transform
-- proto: ClosetBase
-  entities:
-  - uid: 8565
-    components:
-    - pos: 8.5,-13.5
-      parent: 2
-      type: Transform
-    - air:
-        volume: 200
-        immutable: False
-        temperature: 75.31249
-        moles:
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-      type: EntityStorage
-    - containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 8566
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-      type: ContainerContainer
 - proto: ClosetBluespaceUnstable
   entities:
   - uid: 8567
@@ -59460,9 +59406,6 @@ entities:
         entity_storage: !type:Container
           showEnts: False
           occludes: True
-          ents:
-          - 8643
-          - 8644
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -59611,38 +59554,6 @@ entities:
     - pos: 22.363007,-30.442726
       parent: 2
       type: Transform
-- proto: ClothingBackpackDuffelSurgeryFilled
-  entities:
-  - uid: 8566
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8565
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: ItemCooldown
-    - type: InsideEntityStorage
-  - uid: 8668
-    components:
-    - pos: -19.475128,-16.47143
-      parent: 2
-      type: Transform
-  - uid: 8669
-    components:
-    - pos: -29.6456,32.57791
-      parent: 2
-      type: Transform
-  - uid: 8670
-    components:
-    - pos: -30.524422,37.62142
-      parent: 2
-      type: Transform
-  - uid: 8671
-    components:
-    - pos: 18.47583,-13.234814
-      parent: 2
-      type: Transform
 - proto: ClothingBackpackSatchelSalvage
   entities:
   - uid: 8672
@@ -59662,28 +59573,6 @@ entities:
     - pos: -19.541893,-45.404873
       parent: 2
       type: Transform
-- proto: ClothingBeltAssault
-  entities:
-  - uid: 8537
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8535
-      type: Transform
-    - containers:
-        storagebase: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 8542
-          - 8538
-          - 8539
-          - 8540
-          - 8541
-      type: ContainerContainer
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
 - proto: ClothingBeltJanitor
   entities:
   - uid: 8675
@@ -59816,15 +59705,6 @@ entities:
       type: Transform
 - proto: ClothingEyesGlassesSunglasses
   entities:
-  - uid: 8543
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8535
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
   - uid: 8697
     components:
     - pos: -26.440292,-23.687542
@@ -59852,37 +59732,6 @@ entities:
     - flags: InContainer
       type: MetaData
     - parent: 15677
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-- proto: ClothingEyesHudMedical
-  entities:
-  - uid: 8544
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8535
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-  - uid: 8703
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8701
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-- proto: ClothingEyesHudSecurity
-  entities:
-  - uid: 8545
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8535
       type: Transform
     - canCollide: False
       type: Physics
@@ -59942,38 +59791,6 @@ entities:
     - pos: 11.494395,39.477314
       parent: 2
       type: Transform
-- proto: ClothingHeadHatBeretBlueshield
-  entities:
-  - uid: 8546
-    components:
-    - flags: InContainer
-      name: Blueshield's Beret
-      type: MetaData
-    - parent: 8535
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-  - uid: 8547
-    components:
-    - flags: InContainer
-      name: Blueshield's Beret
-      type: MetaData
-    - parent: 8535
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-  - uid: 8548
-    components:
-    - flags: InContainer
-      name: Blueshield's Beret
-      type: MetaData
-    - parent: 8535
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
 - proto: ClothingHeadHatBeretHoS
   entities:
   - uid: 8717
@@ -60168,19 +59985,6 @@ entities:
     - pos: -14.499043,-33.465836
       parent: 2
       type: Transform
-- proto: ClothingMaskGasERT
-  entities:
-  - uid: 8549
-    components:
-    - flags: InContainer
-      desc: The own head's bodyguard gas mask.
-      name: blueshield gas mask
-      type: MetaData
-    - parent: 8535
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
 - proto: ClothingMaskMuzzle
   entities:
   - uid: 8728
@@ -60267,17 +60071,6 @@ entities:
     - pos: 14.597477,-32.364628
       parent: 2
       type: Transform
-- proto: ClothingNeckTieDet
-  entities:
-  - uid: 8550
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8535
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
 - proto: ClothingNeckTransPin
   entities:
   - uid: 8767
@@ -60400,18 +60193,6 @@ entities:
     - pos: -6.3512006,-62.312706
       parent: 2
       type: Transform
-- proto: ClothingOuterVestBlueshield
-  entities:
-  - uid: 8551
-    components:
-    - flags: InContainer
-      name: advanced armor vest
-      type: MetaData
-    - parent: 8535
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
 - proto: ClothingOuterVestHazard
   entities:
   - uid: 8778
@@ -60483,26 +60264,6 @@ entities:
     - pos: 24.617237,-34.449207
       parent: 2
       type: Transform
-- proto: ClothingShoesColorBlack
-  entities:
-  - uid: 8552
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8535
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-  - uid: 8553
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8535
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
 - proto: ClothingShoesWizard
   entities:
   - uid: 8791
@@ -60546,38 +60307,6 @@ entities:
     - flags: InContainer
       type: MetaData
     - parent: 8796
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpsuitBlueshield
-  entities:
-  - uid: 8554
-    components:
-    - flags: InContainer
-      name: Blueshield's jumpsuit
-      type: MetaData
-    - parent: 8535
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-  - uid: 8555
-    components:
-    - flags: InContainer
-      name: Blueshield's jumpsuit
-      type: MetaData
-    - parent: 8535
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-  - uid: 8556
-    components:
-    - flags: InContainer
-      name: Blueshield's jumpsuit
-      type: MetaData
-    - parent: 8535
       type: Transform
     - canCollide: False
       type: Physics
@@ -69403,9 +69132,6 @@ entities:
     - pos: -20.5,-33.5
       parent: 2
       type: Transform
-    - recentlyEjected:
-      - invalid
-      type: DisposalUnit
   - uid: 10258
     components:
     - pos: -12.5,-34.5
@@ -69536,9 +69262,6 @@ entities:
     - pos: -20.5,38.5
       parent: 2
       type: Transform
-    - recentlyEjected:
-      - invalid
-      type: DisposalUnit
   - uid: 10284
     components:
     - pos: -26.5,32.5
@@ -78371,14 +78094,6 @@ entities:
       type: Transform
 - proto: Flash
   entities:
-  - uid: 8538
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8537
-      type: Transform
-    - canCollide: False
-      type: Physics
   - uid: 11210
     components:
     - pos: -16.97403,11.588499
@@ -105888,9 +105603,6 @@ entities:
     - pos: -27.5,-11.5
       parent: 2
       type: Transform
-    - destinations:
-      - invalid
-      type: Gateway
 - proto: GeigerCounter
   entities:
   - uid: 14812
@@ -105981,16 +105693,6 @@ entities:
     - pos: -0.5,0.5
       parent: 23695
       type: Transform
-- proto: GrenadeFlashBang
-  entities:
-  - uid: 8539
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8537
-      type: Transform
-    - canCollide: False
-      type: Physics
 - proto: Grille
   entities:
   - uid: 14825
@@ -109137,22 +108839,6 @@ entities:
       type: Transform
 - proto: Handcuffs
   entities:
-  - uid: 8540
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8537
-      type: Transform
-    - canCollide: False
-      type: Physics
-  - uid: 8541
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8537
-      type: Transform
-    - canCollide: False
-      type: Physics
   - uid: 15382
     components:
     - pos: 43.518574,-16.785635
@@ -110792,15 +110478,6 @@ entities:
       type: Transform
 - proto: Lighter
   entities:
-  - uid: 8557
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8535
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
   - uid: 15650
     components:
     - pos: 17.475067,12.604044
@@ -110945,60 +110622,6 @@ entities:
     - pos: 43.5,17.5
       parent: 2
       type: Transform
-- proto: LockerBS
-  entities:
-  - uid: 8535
-    components:
-    - name: blueshield's locker
-      type: MetaData
-    - pos: 7.5,27.5
-      parent: 2
-      type: Transform
-    - air:
-        volume: 200
-        immutable: False
-        temperature: 293.1496
-        moles:
-        - 1.7459903
-        - 6.568249
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-      type: EntityStorage
-    - containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 8550
-          - 8544
-          - 8554
-          - 8557
-          - 8536
-          - 8545
-          - 8543
-          - 8549
-          - 8546
-          - 8537
-          - 8547
-          - 8552
-          - 8553
-          - 8548
-          - 8555
-          - 8551
-          - 8556
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-      type: ContainerContainer
 - proto: LockerCaptainFilled
   entities:
   - uid: 15670
@@ -111128,9 +110751,6 @@ entities:
         entity_storage: !type:Container
           showEnts: False
           occludes: True
-          ents:
-          - 8702
-          - 8703
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -112289,15 +111909,6 @@ entities:
       type: Transform
 - proto: MedkitBurnFilled
   entities:
-  - uid: 8643
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8642
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
   - uid: 15846
     components:
     - pos: 22.513134,-14.547533
@@ -127987,7 +127598,7 @@ entities:
         16454:
         - Status: Toggle
       type: DeviceLinkSource
-    - type: ItemCooldown
+    
   - uid: 18173
     components:
     - rot: -1.5707963267948966 rad
@@ -128148,7 +127759,6 @@ entities:
         16475:
         - Status: Toggle
       type: DeviceLinkSource
-    - type: ItemCooldown
   - uid: 18185
     components:
     - rot: 3.141592653589793 rad
@@ -133244,16 +132854,6 @@ entities:
     - pos: 34.5,-43.5
       parent: 2
       type: Transform
-- proto: Stunbaton
-  entities:
-  - uid: 8542
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 8537
-      type: Transform
-    - canCollide: False
-      type: Physics
 - proto: SubstationBasic
   entities:
   - uid: 18953
