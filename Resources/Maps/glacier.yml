@@ -2004,11 +2004,11 @@ entities:
             color: '#DE3A3A96'
             id: BrickTileWhiteLineE
           decals:
-            1939: -29,18
-            1940: -29,19
-            1941: -29,20
-            1942: -24,6
-            1943: -24,5
+            1932: -29,18
+            1933: -29,19
+            1934: -29,20
+            1935: -24,6
+            1936: -24,5
         - node:
             color: '#EFB34166'
             id: BrickTileWhiteLineE
@@ -2188,8 +2188,8 @@ entities:
             color: '#334E6DC8'
             id: BrickTileWhiteLineW
           decals:
-            1944: -23,5
-            1945: -23,6
+            1937: -23,5
+            1938: -23,6
         - node:
             color: '#3EB38896'
             id: BrickTileWhiteLineW
@@ -3520,19 +3520,19 @@ entities:
             color: '#FFFFFF93'
             id: QuarterTileOverlayGreyscale
           decals:
-            1967: -4,15
-            1968: -3,15
-            1969: -2,15
-            1970: -1,15
+            1948: -4,15
+            1949: -3,15
+            1950: -2,15
+            1951: -1,15
         - node:
             color: '#52B4E996'
             id: QuarterTileOverlayGreyscale180
           decals:
-            1946: -2,-11
-            1947: -1,-11
-            1948: 0,-11
-            1949: 0,-10
-            1950: 1,-10
+            1939: -2,-11
+            1940: -1,-11
+            1941: 0,-11
+            1942: 0,-10
+            1943: 1,-10
         - node:
             color: '#52B4E9E5'
             id: QuarterTileOverlayGreyscale180
@@ -3555,10 +3555,10 @@ entities:
             color: '#52B4E996'
             id: QuarterTileOverlayGreyscale270
           decals:
-            1953: -1,-8
-            1954: -1,-7
-            1955: -2,-9
-            1956: -1,-6
+            1944: -1,-8
+            1945: -1,-7
+            1946: -2,-9
+            1947: -1,-6
         - node:
             color: '#774194E5'
             id: QuarterTileOverlayGreyscale270
@@ -3575,11 +3575,11 @@ entities:
             color: '#FFFFFF93'
             id: QuarterTileOverlayGreyscale270
           decals:
-            1971: -4,13
-            1972: -3,13
-            1973: -2,13
-            1974: -1,13
-            1975: -1,12
+            1952: -4,13
+            1953: -3,13
+            1954: -2,13
+            1955: -1,13
+            1956: -1,12
         - node:
             color: '#439909E5'
             id: QuarterTileOverlayGreyscale90
@@ -8181,7 +8181,7 @@ entities:
       pos: -58.5,-10.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -57200.633
+      secondsUntilStateChange: -57601.168
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -12369,6 +12369,9 @@ entities:
     - type: Transform
       pos: -31.5,49.5
       parent: 2
+    - type: DeviceLinkSink
+      links:
+      - 8631
 - proto: BlastDoorOpen
   entities:
   - uid: 6592
@@ -22109,6 +22112,101 @@ entities:
     - type: Transform
       pos: 20.5,-21.5
       parent: 2
+  - uid: 15608
+    components:
+    - type: Transform
+      pos: -26.5,44.5
+      parent: 2
+  - uid: 15609
+    components:
+    - type: Transform
+      pos: -26.5,43.5
+      parent: 2
+  - uid: 15610
+    components:
+    - type: Transform
+      pos: -26.5,42.5
+      parent: 2
+  - uid: 15611
+    components:
+    - type: Transform
+      pos: -50.5,18.5
+      parent: 2
+  - uid: 15612
+    components:
+    - type: Transform
+      pos: -42.5,17.5
+      parent: 2
+  - uid: 15613
+    components:
+    - type: Transform
+      pos: -41.5,17.5
+      parent: 2
+  - uid: 15614
+    components:
+    - type: Transform
+      pos: -43.5,17.5
+      parent: 2
+  - uid: 15615
+    components:
+    - type: Transform
+      pos: -44.5,17.5
+      parent: 2
+  - uid: 15616
+    components:
+    - type: Transform
+      pos: -45.5,18.5
+      parent: 2
+  - uid: 15617
+    components:
+    - type: Transform
+      pos: -44.5,18.5
+      parent: 2
+  - uid: 15618
+    components:
+    - type: Transform
+      pos: -46.5,18.5
+      parent: 2
+  - uid: 15619
+    components:
+    - type: Transform
+      pos: -49.5,18.5
+      parent: 2
+  - uid: 15620
+    components:
+    - type: Transform
+      pos: -10.5,-18.5
+      parent: 2
+  - uid: 15621
+    components:
+    - type: Transform
+      pos: -11.5,-18.5
+      parent: 2
+  - uid: 15622
+    components:
+    - type: Transform
+      pos: -12.5,-18.5
+      parent: 2
+  - uid: 15623
+    components:
+    - type: Transform
+      pos: -0.5,38.5
+      parent: 2
+  - uid: 15624
+    components:
+    - type: Transform
+      pos: -0.5,37.5
+      parent: 2
+  - uid: 15625
+    components:
+    - type: Transform
+      pos: -0.5,36.5
+      parent: 2
+  - uid: 15626
+    components:
+    - type: Transform
+      pos: -0.5,35.5
+      parent: 2
 - proto: CableApcStack
   entities:
   - uid: 6666
@@ -30099,6 +30197,11 @@ entities:
     - type: Transform
       pos: -35.5,0.5
       parent: 2
+  - uid: 15607
+    components:
+    - type: Transform
+      pos: -25.5,26.5
+      parent: 2
 - proto: CableTerminal
   entities:
   - uid: 6216
@@ -37717,6 +37820,13 @@ entities:
     - type: Transform
       pos: -21.501717,-29.436987
       parent: 2
+- proto: ClothingNeckCloakHop
+  entities:
+  - uid: 15627
+    components:
+    - type: Transform
+      pos: 7.4606028,9.784887
+      parent: 2
 - proto: ClothingNeckCloakIntersex
   entities:
   - uid: 8801
@@ -38988,7 +39098,7 @@ entities:
       pos: -0.5,-63.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -111173.664
+      secondsUntilStateChange: -111574.2
       state: Closing
   - uid: 6727
     components:
@@ -45488,6 +45598,12 @@ entities:
       parent: 2
 - proto: GasPassiveVent
   entities:
+  - uid: 5883
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 42.5,-39.5
+      parent: 2
   - uid: 6643
     components:
     - type: Transform
@@ -58943,12 +59059,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 12.5,-44.5
       parent: 2
-  - uid: 8417
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 42.5,-39.5
-      parent: 2
   - uid: 12339
     components:
     - type: Transform
@@ -64249,9 +64359,9 @@ entities:
     - type: Transform
       pos: 0.5,-13.5
       parent: 2
-- proto: LockerChiefEngineer
+- proto: LockerChiefEngineerFilledHardsuit
   entities:
-  - uid: 5883
+  - uid: 8417
     components:
     - type: Transform
       pos: -10.5,26.5
@@ -72323,6 +72433,10 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -31.5,48.5
       parent: 2
+    - type: DeviceLinkSource
+      linkedPorts:
+        8630:
+        - Pressed: Toggle
 - proto: SignalButtonDirectional
   entities:
   - uid: 7282
