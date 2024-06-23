@@ -147,6 +147,7 @@
     zeroVisible: true
   - type: Appearance
 
+
 - type: entity
   name: makeshift laser pistol
   parent: BaseWeaponBatterySmall

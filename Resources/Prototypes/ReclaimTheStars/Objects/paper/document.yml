@@ -1,0 +1,67 @@
+- type: entity
+  parent: Paper
+  id: PrintedDocument
+  abstract: true
+  description: old document
+  components:
+    - type: Paper
+
+- type: entity
+  parent: PrintedDocument
+  id: PrintedDocumentCryoAwakeningReport
+  name: Cryo Awakening Report
+  components:
+    - type: Paper
+      content: doc-text-cryo-awakening-report
+
+- type: entity
+  parent: PrintedDocument
+  id: PrintedDocumentDamageReport
+  name: Damage Report
+  components:
+    - type: Paper
+      content: doc-text-damage-report
+
+- type: entity
+  parent: PrintedDocument
+  id: PrintedDocumentProtoHealthReport
+  name: Health Analyzer Report
+  components:
+    - type: Paper
+      content: doc-text-protohealth-report
+
+
+
+- type: entity
+  parent: PrintedDocument
+  id: PrintedDocumentProtoLaserGunReport
+  name: K14 Energy Gun Report
+  components:
+    - type: Paper
+      content: doc-text-protohealth-report
+
+- type: entity
+  parent: PrintedDocument
+  id: PrintedDocumentSurvivorNote
+  name: To those who find this
+  components:
+    - type: Paper
+      content: doc-text-survivor-note
+
+- type: entity
+  parent: PrintedDocument
+  id: PrintedDocumentBiolabMollyNote
+  name: Diary note - Molly
+  components:
+    - type: Paper
+      content: doc-text-biolab-note-molly
+
+- type: entity
+  parent: PrintedDocument
+  id: PrintedDocumentBiolabEmergencyNote
+  name: Diary note - Emergency
+  components:
+    - type: Paper
+      content: doc-text-biolab-note-emergency
+
+

@@ -1,0 +1,51 @@
+- type: entity
+  name: Prototype Energy Gun
+  parent: BaseWeaponBatterySmall
+  id: WeaponProtoLaserGun
+  description: NT-P:01 Prototype Energy Gun. Early stage development of a unique laser rifle that has multifaceted energy lens allowing the gun to alter the form of projectile it fires on command.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: blinking
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Gun
+    soundGunshot:
+      path: /Audio/DeltaV/Weapons/Guns/Gunshots/laser.ogg
+    soundEmpty:
+      path: /Audio/DeltaV/Weapons/Guns/Empty/dry_fire.ogg
+  - type: Battery
+    maxCharge: 800
+    startingCharge: 800
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletDisabler
+    fireCost: 50
+  - type: EnergyGun
+    fireModes:
+    - proto: BulletEnergyGunLaser
+      fireCost: 100
+      name: lethal
+      state: kill
+    - proto: BulletDisabler
+      fireCost: 800
+      name: disable
+      state: stun
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.EnergyGunFireModeVisuals.State:
+        Firemode:
+          Disabler: { state: mode-disabler }
+          Lethal: { state: mode-lethal }
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Battery/makeshift.rsi

@@ -1,0 +1,38 @@
+# This is created only to be used as an easteregg at OldStation
+- type: reagent
+  id: Peptides
+  name: reagent-name-peptides
+  group: Food
+  desc: These restorative peptides not only speed up wound healing, but are nutritious as well!
+  physicalDesc: reagent-physical-desc-opaque
+  flavor: creamy
+  color: "#BBD4D9"
+  metabolisms:
+    Food:
+      effects:
+      - !type:SatiateHunger
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Brute: -3
+            Burn: -1
+      - !type:ChemVomit
+        conditions:
+        - !type:ReagentThreshold
+          min: 30
+        probability: 0.02
+      - !type:Jitter
+
+- type: entity
+  parent: Jug
+  name: Solution for Molly
+  id: JugSolutionMolly
+  components:
+    - type: SolutionContainerManager
+      solutions:
+        beaker:
+          reagents:
+            - ReagentId: Peptides
+              Quantity: 200
