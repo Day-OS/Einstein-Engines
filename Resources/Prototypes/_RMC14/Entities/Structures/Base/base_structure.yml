@@ -1,0 +1,37 @@
+﻿- type: entity
+  parent: BaseStructure
+  id: CMBaseStructure
+  abstract: true
+  placement:
+    mode: SnapgridCenter
+
+- type: entity
+  parent: BaseStructure
+  id: CMBaseXenoStructure
+  abstract: true
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: MeleeSound
+    soundGroups:
+      Brute:
+        collection: XenoResinBreak
+
+- type: entity
+  parent:
+  - BaseWall
+  - CMBaseXenoStructure
+  id: CMBaseWallXeno
+  name: resin wall
+  abstract: true
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Damageable
+    damageContainer: StructuralXeno
+    damageModifierSet: Resin
+  - type: Appearance
+  - type: RadiationBlocker
+    resistance: 5
+  - type: PlacementReplacement
+    key: walls

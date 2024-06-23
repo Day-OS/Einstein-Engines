@@ -1,0 +1,6 @@
+﻿- type: soundCollection
+  id: XenoResinBreak
+  files:
+  - /Audio/_RMC14/Xeno/alien_resin_break1.ogg
+  - /Audio/_RMC14/Xeno/alien_resin_break2.ogg
+  - /Audio/_RMC14/Xeno/alien_resin_break3.ogg

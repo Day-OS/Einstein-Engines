@@ -1,0 +1,201 @@
+﻿- type: entity # TODO RMC14 sound
+  id: XenoWeeds
+  name: weeds
+  description: Weird black weeds...
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wall
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        layer:
+        - SlipLayer
+        mask:
+        - ItemMask
+        density: 1000
+        hard: false
+  - type: Clickable
+  - type: EdgeSpreader
+    id: XenoWeeds
+  - type: ActiveEdgeSpreader
+  - type: Sprite
+    sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
+    drawdepth: FloorTiles
+    layers:
+    - state: weed0
+  - type: IconSmooth
+    key: cm_xeno_weeds
+    base: weed_dir
+    mode: CardinalFlags
+  - type: RandomSprite
+    available:
+    - 0:
+        weed0: ""
+        weed1: ""
+        weed2: ""
+        weed3: ""
+        weed4: ""
+        weed5: ""
+        weed6: ""
+        weed7: ""
+        weed8: ""
+        weed9: ""
+        weed10: ""
+        weed11: ""
+        weed12: ""
+        weed13: ""
+        weed14: ""
+        weed15: ""
+  - type: Damageable
+    damageContainer: StructuralXeno
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 5
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+#  - type: Physics
+#    bodyType: Static
+#  - type: FootstepModifier
+#    footstepSoundCollection:
+#      collection: FootstepWater
+#      params:
+#        volume: 8
+
+- type: entity # TODO RMC14 sound
+  parent: XenoWeeds
+  id: XenoWeedsSource
+  name: weed node
+  description: A weird, pulsating node
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
+    drawdepth: FloorTiles
+    layers:
+    - state: weed0
+    - state: constructionnode
+
+- type: entity # TODO RMC14 sound
+  parent: XenoWeeds
+  id: XenoHiveWeeds
+  name: hive weeds
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wall
+  components:
+  - type: EdgeSpreader
+    id: XenoWeeds
+  - type: Sprite
+    sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
+    drawdepth: FloorTiles
+    layers:
+    - state: hive_weed0
+    base: hive_weed
+    mode: CardinalFlags
+  - type: RandomSprite
+    available:
+    - 0:
+        hive_weed0: ""
+
+        hive_weed1: ""
+
+        hive_weed2: ""
+
+        hive_weed3: ""
+
+        hive_weed4: ""
+
+        hive_weed5: ""
+
+        hive_weed6: ""
+
+        hive_weed7: ""
+
+        hive_weed8: ""
+
+        hive_weed9: ""
+
+        hive_weed10: ""
+
+        hive_weed11: ""
+
+        hive_weed12: ""
+
+        hive_weed13: ""
+
+        hive_weed14: ""
+
+        hive_weed15: ""
+
+- type: entity # TODO RMC14 sound
+  parent: XenoHiveWeeds
+  id: XenoHiveWeedsSource
+  name: hive weed node
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
+    drawdepth: FloorTiles
+    layers:
+    - state: hive_weed0
+    - state: constructionnode
+
+- type: entity
+  id: XenoWeedsWall
+  name: weeds
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wall
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        layer:
+        - WallLayer
+        density: 1000
+        hard: false
+  - type: Clickable
+  - type: Sprite
+    sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
+    drawdepth: Objects
+    layers:
+    - state: weedwall
+  - type: IconSmooth
+    key: cm_xeno_weeds_walls
+    base: weedwall
+    mode: Corners
+  - type: Damageable
+    damageContainer: StructuralXeno
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 5
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: WallMount
+    arc: 360
+
+- type: edgeSpreader
+  id: XenoWeeds
+  updatesPerSecond: 2
