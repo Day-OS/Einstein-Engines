@@ -73,7 +73,6 @@ doc-text-biolab-note-molly =
 doc-text-biolab-note-emergency =
     OH GOD, the station is still creaking from a heavy impact in the port direction. The power is down, coms not responding, the air supply pipe depressurized and I can feel the artificial gravity weakening.
 
-	The whole department is running around in panic. I'll just pray that engineers won't let the engine delaminate.
-    ...And the alien spawn have broken out of the containment area due to the impact and slipped into the vent.
+    The whole department is running around in panic. I'll just pray that engineers won't let the engine delaminate. ...And the alien spawn have broken out of the containment area due to the impact and slipped into the vent.
 
-	I have a bad feeling about this, but I doubt that now is the right time to make guys hunt for what they call my "pet cockroach"... And RD is scary...
+    I have a bad feeling about this, but I doubt that now is the right time to make guys hunt for what they call my "pet cockroach"... And RD is scary...

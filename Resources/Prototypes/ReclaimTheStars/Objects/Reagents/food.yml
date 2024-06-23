@@ -3,7 +3,7 @@
   id: Peptides
   name: reagent-name-peptides
   group: Food
-  desc: These restorative peptides not only speed up wound healing, but are nutritious as well!
+  desc: reagent-desc-peptides
   physicalDesc: reagent-physical-desc-opaque
   flavor: creamy
   color: "#BBD4D9"
