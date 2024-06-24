@@ -18,12 +18,8 @@
   id: BotanistGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitHydroponics
-    back: ClothingBackpackHydroponicsFilled
     shoes: ClothingShoesColorBrown
-    id: BotanistPDA
+    id: BotanistIDCard
     ears: ClothingHeadsetService
     outerClothing: ClothingOuterApronBotanist
-    belt: ClothingBeltPlantFilled
   innerClothingSkirt: ClothingUniformJumpskirtHydroponics
-  satchel: ClothingBackpackSatchelHydroponicsFilled
-  duffelbag: ClothingBackpackDuffelHydroponicsFilled

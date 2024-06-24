@@ -86,16 +86,6 @@
   items:
     - ClothingOuterCoatLabChem
 
-- type: loadout
-  id: LoadoutMedicalItemHandLabeler
-  category: Jobs
-  exclusive: true
-  requirements:
-    - !type:CharacterJobRequirement
-      jobs:
-        - Chemist
-  items:
-    - HandLabeler
 
 - type: loadout
   id: LoadoutMedicalUniformParamedicJumpsuit

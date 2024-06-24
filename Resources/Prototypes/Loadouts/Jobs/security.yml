@@ -21,18 +21,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - SecurityOfficer
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobWarden
-      min: 21600 # 6 hours
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobDetective
-      min: 7200 # 2 hours
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobSecurityOfficer
-      min: 21600 # 6 hours
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 216000 # 60 hours
   items:
     - ClothingUniformJumpskirtSeniorOfficer
 
@@ -45,33 +33,9 @@
     - !type:CharacterJobRequirement
       jobs:
         - SecurityOfficer
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobWarden
-      min: 21600 # 6 hours
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobDetective
-      min: 7200 # 2 hours
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobSecurityOfficer
-      min: 21600 # 6 hours
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 216000 # 60 hours
   items:
     - ClothingUniformJumpsuitSeniorOfficer
 
-- type: loadout
-  id: LoadoutSecurityMaskGasSwat
-  category: Jobs
-  cost: 2
-  exclusive: true
-  requirements:
-    - !type:CharacterJobRequirement
-      jobs:
-        - Warden
-        - HeadOfSecurity
-  items:
-    - ClothingMaskGasSwat
 
 - type: loadout
   id: LoadoutSecurityShoesJackboots

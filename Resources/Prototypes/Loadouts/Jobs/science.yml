@@ -7,9 +7,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - Scientist
-    - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics
-      min: 216000 # 60 hours
   items:
     - ClothingUniformJumpskirtSeniorResearcher
 
@@ -22,9 +19,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - Scientist
-    - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics
-      min: 216000 # 60 hours
   items:
     - ClothingUniformJumpsuitSeniorResearcher
 
@@ -65,9 +59,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - Scientist
-    - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics
-      min: 216000 # 60 hours
   items:
     - ClothingOuterCoatLabSeniorResearcher
 

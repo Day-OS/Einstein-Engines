@@ -3,10 +3,6 @@
   name: job-name-security
   description: job-description-security
   playTimeTracker: JobSecurityOfficer
-  requirements:
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 14400 # DeltaV - 4 hours
   startingGear: SecurityOfficerGear
   icon: "JobIconSecurityOfficer"
   supervisors: job-supervisors-hos
@@ -26,15 +22,7 @@
   id: SecurityOfficerGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSec
-    back: ClothingBackpackSecurityFilled
     shoes: ClothingShoesBootsCombatFilled
-    eyes: ClothingEyesGlassesSunglasses
-    head: ClothingHeadHelmetBasic
-    outerClothing: ClothingOuterArmorPlateCarrier # DeltaV - ClothingOuterArmorBasic replaced in favour of plate carrier
-    id: SecurityPDA
+    id: SecurityIDCard
     ears: ClothingHeadsetSecurity
-    belt: ClothingBeltSecurityFilled
-    pocket1: WeaponPistolMk58Nonlethal
   innerClothingSkirt: ClothingUniformJumpskirtSec
-  satchel: ClothingBackpackSatchelSecurityFilled
-  duffelbag: ClothingBackpackDuffelSecurityFilled
