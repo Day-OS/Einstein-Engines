@@ -1,0 +1,31 @@
+- type: gameMap
+  id: OldStation
+  mapName: 'OldStation'
+  mapPath: /Maps/oldstation.yml
+  minPlayers: 0
+  maxPlayers: 9
+  stations:
+    OldStation:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/Shuttles/DeltaV/NTES_Kaeri.yml
+        - type: StationNameSetup
+          mapNameTemplate: '{0} Charlie Station {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: 'SRA'
+        - type: StationJobs
+          availableJobs:
+          #service
+            Botanist: [ 1, 1 ]
+            Chef: [ 1, 1 ]
+          #engineering
+            StationEngineer: [ 1, 2 ]
+          #medical
+            MedicalDoctor: [ 1, 1 ]
+          #science
+            Chaplain: [ 1, 1 ]
+            Scientist: [ 1, 1 ]
+          #security
+            SecurityOfficer: [ 1, 2 ]

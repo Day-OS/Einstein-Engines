@@ -1,0 +1,23 @@
+- type: entity
+  parent: MobCleanBot
+  id: MobRambooCleanBot
+  name: Ramboo
+  description: Looks like this little fella has been here for a pretty while.
+
+# For now, I have no idea how would i make Ramboo be uncharged at start
+
+
+
+- type: entity
+  name: Ramboo Spawner
+  id: RambooSpawner
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - state: red
+        - sprite: Mobs/Silicon/Bots/cleanbot.rsi
+          state: cleanbot
+    - type: RandomSpawner
+      prototypes:
+      - MobXenoQueenNPC

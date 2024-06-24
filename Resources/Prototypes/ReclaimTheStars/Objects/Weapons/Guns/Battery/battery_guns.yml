@@ -25,7 +25,7 @@
     fireCost: 50
   - type: EnergyGun
     fireModes:
-    - proto: BulletEnergyGunLaser
+    - proto: BulletEnergyGunLaserRetro
       fireCost: 100
       name: lethal
       state: kill
@@ -49,3 +49,55 @@
     - Sidearm
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
+
+- type: entity
+  name: laser blaster
+  parent: WeaponLaserGun
+  id: WeaponOldReroLaserGun
+  description: One of the most advanced blasters in the market... It looks very rusted.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: HitscanBatteryAmmoProvider
+    proto: RedMediumLaserRetro
+    fireCost: 62.5
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+
+- type: hitscan
+  id: RedMediumLaserRetro
+  damage:
+    types:
+      Heat: 6
+  muzzleFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: muzzle_laser
+  travelFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: beam
+  impactFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: impact_laser
+
+- type: entity
+  name: energy bolt
+  id: BulletEnergyGunLaserRetro
+  parent: BulletEnergyGunLaser
+  noSpawn: true
+  components:
+  - type: Projectile
+    impactEffect: BulletImpactEffectRedDisabler
+    damage:
+      types:
+        Heat: 10 # Slightly more damage than the 17heat from the Captain's Hitscan lasgun
+    soundHit:
+      collection: MeatLaserImpact
