@@ -1,0 +1,79 @@
+
+
+- type: entity
+  parent: BaseStructure
+  id: SophicScribeDestroyed
+  name: mysterious statue
+  description: It looks like it has been infested with those strange weeds.  Try cutting the weeds out of it
+  components:
+  - type: Sprite
+    noRot: true
+    drawdepth: Mobs
+    offset: "0.0,0.5"
+    sprite: ReclaimTheStars/Structures/Decoration/statues.rsi
+    layers:
+      - state: sophie
+      - map: ["enum.SolutionContainerLayers.Fill"]
+  - type: SpriteFade
+  - type: Construction
+    graph: Statues
+    node: sophiedestroyed
+
+- type: entity
+  parent: BaseStructure
+  id: OracleDestroyed
+  name: mysterious statue
+  description: It looks like it has been infested with those strange weeds. Try cutting the weeds out of it
+  components:
+  - type: Sprite
+    noRot: true
+    drawdepth: Mobs
+    offset: "0.0,0.5"
+    sprite: ReclaimTheStars/Structures/Decoration/statues.rsi
+    layers:
+      - state: oracle-0
+      - map: ["enum.SolutionContainerLayers.Fill"]
+        state: oracle-0
+  - type: SpriteFade
+  - type: Construction
+    graph: Statues
+    node: oracledestroyed
+
+
+
+- type: constructionGraph
+  id: Statues
+  start: start
+  graph:
+    - node: start
+    - node: sophiedestroyed
+      entity: SophicScribeDestroyed
+      edges:
+        - to: sophiecompleted
+          completed:
+          - !type:SnapToGrid
+              southRotation: true
+          steps:
+            - tool: Cutting
+              doAfter: 10
+            - tool: Welding
+              doAfter: 10
+
+    - node: sophiecompleted
+      entity: SophicScribe
+
+    - node: oracledestroyed
+      entity: OracleDestroyed
+      edges:
+        - to: oraclecompleted
+          completed:
+          - !type:SnapToGrid
+              southRotation: true
+          steps:
+            - tool: Cutting
+              doAfter: 10
+            - tool: Welding
+              doAfter: 10
+
+    - node: oraclecompleted
+      entity: Oracle

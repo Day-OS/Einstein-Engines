@@ -3,6 +3,7 @@
 lobbyenabled = false
 # Dev map for faster loading & convenience
 map = "Dev"
+#map = "OldStation"
 role_timers = false
 
 [gateway]
@@ -26,3 +27,6 @@ arrivals = false
 
 [admin]
 see_own_notes = true
+
+#r[worldgen]
+#enabled = true

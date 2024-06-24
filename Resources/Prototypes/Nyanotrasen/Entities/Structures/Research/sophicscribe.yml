@@ -37,3 +37,6 @@
   - type: GuideHelp
     guides:
     - Psionics
+  - type: Construction
+    graph: Statues
+    node: sophiecompleted

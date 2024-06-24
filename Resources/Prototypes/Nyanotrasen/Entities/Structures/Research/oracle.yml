@@ -42,3 +42,6 @@
   - type: SpriteFade
   - type: Tag
     tags: []
+  - type: Construction
+    graph: Statues
+    node: oraclecompleted
