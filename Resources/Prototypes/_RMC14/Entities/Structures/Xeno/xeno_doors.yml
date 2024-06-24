@@ -55,7 +55,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 600
+        damage: 120
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
@@ -68,6 +68,8 @@
     access: [["CMAccessXeno"]]
   - type: Airlock
     emergencyAccessLayer: false
+    emergencyAccess: true
+    safety: false
     animatePanel: false
     openingSpriteState: closed_unlit
     closingSpriteState: closed_unlit

@@ -103,6 +103,23 @@
       rareChance: 0.10
 
 - type: entity
+  name: Queen Xeno Spawner
+  id: XenoQueenAISpawner
+  parent: MarkerBase
+  suffix: No Ghost Takeover
+  components:
+    - type: Sprite
+      layers:
+        - state: red
+        - sprite: Mobs/Aliens/Xenos/queen.rsi
+          state: running
+        - state: ai
+    - type: RandomSpawner
+      prototypes:
+      - MobXenoQueenNPC
+
+
+- type: entity
   name: Argocyte Spawner
   id: ArgocyteAISpawner
   parent: MarkerBase
