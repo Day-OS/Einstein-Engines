@@ -815,7 +815,8 @@ entities:
           -4,0:
             0: 34816
           -3,0:
-            0: 65416
+            0: 61320
+            1: 4096
           -3,1:
             0: 65535
           -3,2:
@@ -840,7 +841,7 @@ entities:
             0: 61745
           1,-1:
             0: 62833
-            1: 512
+            2: 512
           3,-1:
             0: 49152
           -4,5:
@@ -1082,6 +1083,21 @@ entities:
           - 0
           - 0
         - volume: 2500
+          temperature: 293.14975
+          moles:
+          - 20.078888
+          - 75.53487
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
           temperature: 293.14984
           moles:
           - 20.078888
@@ -1130,6 +1146,8 @@ entities:
     - type: Broadphase
     - type: OccluderTree
     - type: LoadedMap
+    - type: Parallax
+      parallax: PebbleStation
     - type: GridTree
     - type: MovedGrids
   - uid: 2636
@@ -1794,7 +1812,7 @@ entities:
       pos: 24.5,4.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -579.42236
+      secondsUntilStateChange: -1606.0463
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1805,7 +1823,7 @@ entities:
       pos: 24.5,5.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -3739.183
+      secondsUntilStateChange: -4765.807
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1849,7 +1867,7 @@ entities:
       dockJointId: docking40002
       dockedWith: 2635
     - type: Door
-      secondsUntilStateChange: -4094.5063
+      secondsUntilStateChange: -5121.1304
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -6708,6 +6726,35 @@ entities:
     - type: Transform
       pos: -11.5,3.5
       parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 1381
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: Crowbar
   entities:
   - uid: 104
@@ -6725,7 +6772,7 @@ entities:
     - type: Transform
       pos: -9.444668,7.5813475
       parent: 1
-- proto: CryogenicSleepUnit
+- proto: CryogenicSleepUnitSpawner
   entities:
   - uid: 4
     components:
@@ -13680,7 +13727,7 @@ entities:
     - type: Transform
       pos: -36.5,15.5
       parent: 1
-- proto: Oracle
+- proto: OracleDestroyed
   entities:
   - uid: 2810
     components:
@@ -14589,6 +14636,13 @@ entities:
     - type: Transform
       pos: 10.5,8.5
       parent: 1
+- proto: RambooSpawner
+  entities:
+  - uid: 3537
+    components:
+    - type: Transform
+      pos: 2.5,4.5
+      parent: 1
 - proto: RandomScienceCorpseSpawner
   entities:
   - uid: 3273
@@ -14695,6 +14749,13 @@ entities:
     - type: Transform
       pos: 9.5,1.5
       parent: 2636
+- proto: RandomVending
+  entities:
+  - uid: 100
+    components:
+    - type: Transform
+      pos: 3.5,1.5
+      parent: 1
 - proto: ReinforcedWindow
   entities:
   - uid: 14
@@ -15207,6 +15268,15 @@ entities:
     - type: InsideEntityStorage
 - proto: SheetPlasma
   entities:
+  - uid: 1381
+    components:
+    - type: Transform
+      parent: 327
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
+      canCollide: False
+    - type: InsideEntityStorage
   - uid: 2759
     components:
     - type: Transform
@@ -15666,7 +15736,7 @@ entities:
     - type: Transform
       pos: -20.5,-9.5
       parent: 1
-- proto: SophicScribe
+- proto: SophicScribeDestroyed
   entities:
   - uid: 2811
     components:
@@ -16352,13 +16422,6 @@ entities:
     components:
     - type: Transform
       pos: -24.5,13.5
-      parent: 1
-- proto: VendingMachineCoffee
-  entities:
-  - uid: 100
-    components:
-    - type: Transform
-      pos: 3.5,1.5
       parent: 1
 - proto: VendingMachineDinnerware
   entities:
@@ -20279,17 +20342,17 @@ entities:
     - type: Transform
       pos: 26.5,8.5
       parent: 1
-- proto: WeaponLaserGun
+- proto: WeaponOldReroLaserGun
   entities:
-  - uid: 1381
-    components:
-    - type: Transform
-      pos: 8.563316,8.616818
-      parent: 1
   - uid: 1382
     components:
     - type: Transform
-      pos: 9.507918,8.474773
+      pos: 9.622924,8.57161
+      parent: 1
+  - uid: 3536
+    components:
+    - type: Transform
+      pos: 8.456257,8.654943
       parent: 1
 - proto: WeaponProtoLaserGun
   entities:
@@ -20298,6 +20361,17 @@ entities:
     - type: Transform
       pos: 34.538895,-1.2495174
       parent: 1
+    - type: ProjectileBatteryAmmoProvider
+      fireCost: 100
+      proto: BulletEnergyGunLaser
+    - type: EnergyGun
+      currentFireMode:
+        state: kill
+        name: lethal
+        fireCost: 100
+        proto: BulletEnergyGunLaser
+    - type: Item
+      heldPrefix: kill
 - proto: WeaponShotgunKammerer
   entities:
   - uid: 2946
