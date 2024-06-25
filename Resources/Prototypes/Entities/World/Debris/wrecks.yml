@@ -25,18 +25,6 @@
             prob: 0.3
           - id: SalvageCanisterSpawner
             prob: 0.3
-          - id: SalvageLiquidCanisterSpawner # Frontier
-            prob: 0.03
-          - id: SalvageTankSpawner
-            prob: 0.15
-          - id: SalvageLockerSpawner
-            prob: 0.15
-          - id: SalvageSuitStorageSpawner
-            prob: 0.05
-          - id: SalvagePottedPlantsSpawner
-            prob: 0.1
-          - id: SalvageGeneratorSpawner
-            prob: 0.1
           - id: SalvageMobSpawner
             prob: 0.3
           - id: SpawnMobBearSalvage
@@ -69,8 +57,6 @@
             prob: 0.02
           - id: RandomBox
             prob: 0.2
-          - id: SalvageHandheldFlagSpawner
-            prob: 0.02
           - id: Girder
             prob: 1.7
           - id: WallSolid

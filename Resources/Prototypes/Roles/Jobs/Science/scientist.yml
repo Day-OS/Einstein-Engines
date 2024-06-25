@@ -16,6 +16,6 @@
     jumpsuit: ClothingUniformJumpsuitScientist
     shoes: ClothingShoesColorWhite
     outerClothing: ClothingOuterCoatRnd
-    id: ScienceIDCard
+    id: ResearchIDCard
     ears: ClothingHeadsetScience
   innerClothingSkirt: ClothingUniformJumpskirtScientist
