@@ -20,4 +20,4 @@
           state: cleanbot
     - type: RandomSpawner
       prototypes:
-      - MobXenoQueenNPC
+      - MobRambooCleanBot
