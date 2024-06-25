@@ -13,7 +13,7 @@
   - type: SubGamemodes
     rules:
     - id: Thief
-      prob: 0.5
+      prob: 0
 
 - type: entity
   id: DeathMatch31
@@ -150,3 +150,13 @@
     - id: BloodbathPuddleMessVariationPass
       prob: 0.01
       orGroup: puddleMess
+
+# variation passes
+- type: entity
+  id: CoopRules
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: NoSurvivorsRoundEndRule
+
+

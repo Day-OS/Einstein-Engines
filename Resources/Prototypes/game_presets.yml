@@ -1,4 +1,16 @@
 - type: gamePreset
+  id: Coop
+  alias:
+  - coop
+  name: coop-title
+  showInVote: true
+  description: coop-description
+  rules:
+  - RampingStationEventScheduler
+  - BasicRoundstartVariation
+  - CoopRules
+
+- type: gamePreset
   id: Survival
   alias:
     - survival
