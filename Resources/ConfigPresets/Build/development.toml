@@ -2,9 +2,11 @@
 # Straight in-game baby
 lobbyenabled = false
 # Dev map for faster loading & convenience
-map = "Dev"
-#map = "OldStation"
+#map = "Dev"
+map = "OldStation"
 role_timers = false
+
+cryo_sleep_rejoining = true
 
 [gateway]
 generator_enabled = false
@@ -28,5 +30,5 @@ arrivals = false
 [admin]
 see_own_notes = true
 
-#r[worldgen]
-#enabled = true
+[worldgen]
+enabled = true
