@@ -159,4 +159,14 @@
   components:
   - type: NoSurvivorsRoundEndRule
 
+# variation passes
+- type: entity
+  id: Twitch
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: TwitchIntegrationRule
+
+
+
 

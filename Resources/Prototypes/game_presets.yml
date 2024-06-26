@@ -11,6 +11,21 @@
   - CoopRules
 
 - type: gamePreset
+  id: CoopTwitch
+  alias:
+  - cooptwitch
+  - twitchcoop
+  - ct
+  name: coop-title-twitch
+  showInVote: true
+  description: coop-description
+  rules:
+  - RampingStationEventScheduler
+  - BasicRoundstartVariation
+  - CoopRules
+  - Twitch
+
+- type: gamePreset
   id: Survival
   alias:
     - survival

@@ -4,7 +4,7 @@
   parent: BaseMobHuman
   id: MobHuman
   components:
-  - type: PotentialPsionic #Nyano - Summary: makes potentially psionic. 
+  - type: PotentialPsionic #Nyano - Summary: makes potentially psionic.
 
 #Syndie
 - type: entity
@@ -75,26 +75,26 @@
       warn: false
 
 # Space Ninja
-- type: entity
-  noSpawn: true
-  name: Space Ninja
-  parent: MobHuman
-  id: MobHumanSpaceNinja
-  components:
-  - type: RandomHumanoidAppearance
-    randomizeName: false
-  - type: Loadout
-    prototypes: [SpaceNinjaGear]
-  - type: NpcFactionMember
-    factions:
-    - Syndicate
-  - type: SpaceNinja
-  - type: GenericAntag
-    rule: Ninja
-  - type: AutoImplant
-    implants:
-    - DeathAcidifierImplant
-  - type: RandomMetadata
-    nameSegments:
-    - names_ninja_title
-    - names_ninja
+#- type: entity
+#  noSpawn: true
+#  name: Space Ninja
+#  parent: MobHuman
+#  id: MobHumanSpaceNinja
+#  components:
+#  - type: RandomHumanoidAppearance
+#    randomizeName: false
+#  - type: Loadout
+#    prototypes: [SpaceNinjaGear]
+#  - type: NpcFactionMember
+#    factions:
+#    - Syndicate
+#  - type: SpaceNinja
+#  - type: GenericAntag
+#    rule: Ninja
+#  - type: AutoImplant
+#    implants:
+#    - DeathAcidifierImplant
+#  - type: RandomMetadata
+#    nameSegments:
+#    - names_ninja_title
+#    - names_ninja

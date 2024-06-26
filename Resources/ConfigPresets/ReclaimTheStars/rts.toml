@@ -1,0 +1,45 @@
+[game]
+desc               = "Coop Gamemode"
+lobbyenabled       = true
+map = "OldStation"
+role_timers = false
+soft_max_players = 9
+
+
+[infolinks]
+github     = "https://github.com/Day-OS/Einstein-Engines"
+wiki       = "https://wiki.delta-v.org/view/Main_Page"
+
+[net]
+max_connections = 1024
+tickrate = 30
+
+[vote]
+restart_required_ratio = 0.7
+
+[netres]
+limit    = 10.0
+
+[admin]
+see_own_notes   = true
+deadmin_on_join = true
+
+[events]
+enabled = true
+ramping_average_end_time = 180.0
+ramping_average_chaos    = 4.5
+
+[atmos]
+monstermos_rip_tiles = false
+
+[server]
+id = "deltav"
+
+[discord]
+rich_main_icon_id = "deltav"
+
+[ic]
+flavor_text = true
+
+#[worldgen]
+#enabled = true

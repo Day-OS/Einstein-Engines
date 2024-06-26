@@ -419,6 +419,36 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<bool>
         QueueEnabled = CVarDef.Create("queue.enabled", false, CVar.SERVERONLY);
 
+        /*
+         * Twitch
+         */
+
+        /// <summary>
+        /// User name of the account that will be used for reading information
+        /// </summary>
+        public static readonly CVarDef<string> TwitchUsername =
+            CVarDef.Create("twitch.username", "");
+
+        /// <summary>
+        /// Access token of the account
+        /// </summary>
+        public static readonly CVarDef<string> TwitchAccessToken =
+            CVarDef.Create("twitch.access_token", "");
+
+
+        /// <summary>
+        /// The channel that will be listened and managed
+        /// </summary>
+        public static readonly CVarDef<string> TwitchChannel =
+            CVarDef.Create("twitch.channel", "");
+
+        /// <summary>
+        /// The interval in seconds between each voting.
+        /// </summary>
+        public static readonly CVarDef<int> TwitchEventInterval =
+            CVarDef.Create("twitch.event_interval", 60);
+
+
 
         /*
          * Discord
