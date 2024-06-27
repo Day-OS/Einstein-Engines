@@ -20,7 +20,6 @@
   components:
   - type: StorageFill
     contents:
-      - id: ClothingOuterSuitEmergency
       - id: ClothingMaskBreath
       - id: EmergencyOxygenTankFilled
         prob: 0.80
@@ -28,8 +27,6 @@
       - id: OxygenTankFilled
         prob: 0.20
         orGroup: EmergencyTankOrRegularTank
-      - id: ToolboxEmergencyFilled
-        prob: 0.4
       - id: MedkitOxygenFilled
         prob: 0.2
       - id: WeaponFlareGun
