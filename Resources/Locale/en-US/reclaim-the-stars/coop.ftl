@@ -1,5 +1,6 @@
 coop-title = Co-op
 coop-description = Co-op game-mode. It's like survival, but even more focused in PvE. Intended to be played both via text or voice.
+coop-greeting = You awaken from a deep slumber, only to find your surroundings far more decrepit than expected. You were supposed to emerge from the cryogenics pod in ten years, but something has clearly gone wrong.
 
 coop-round-end-text = Crew score: {$score}
 
