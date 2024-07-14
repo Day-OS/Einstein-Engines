@@ -19,4 +19,4 @@ min_players = 10
 enable_during_round = true
 
 [hub]
-tags = "lang:en-US,region:am_n_e,rp:med"
+tags = "lang:pt-BR,region:am_n_e,rp:med"

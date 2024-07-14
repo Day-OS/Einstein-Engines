@@ -1,0 +1,14 @@
+- type: palette
+  id: Corotesabores
+  name: Corotesabores
+  colors:
+    "melancia": "#CD311F"
+    "limao": "#DCE1D4"
+    "canela": "#BE6A1C"
+    "morango": "#BC1F19"
+    "maracuja": "#DEC047"
+    "baunilha": "#F2EEDD"
+    "tutifruti": "#D794C2"
+    "blueberry": "#83C4FF"
+    "menta": "#92D759"
+    "pessego": "#E6BD59"

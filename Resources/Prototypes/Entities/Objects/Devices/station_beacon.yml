@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: DefaultStationBeacon
-  name: station beacon
-  description: A small device that transmits information to station maps. Can be configured.
+  name: farol da estação
+  description: Um pequeno dispositivo que transmite informações para mapas de estação. Pode ser configurado.
   placement:
     mode: SnapgridCenter
   suffix: General
@@ -97,8 +97,8 @@
 - type: entity
   parent: BaseItem
   id: StationBeaconPart
-  name: station beacon flatpack
-  description: A flatpack used for constructing a station beacon.
+  name: farol da estação flatpack
+  description: Um flatpack usado para construir um farol de estação.
   components:
   - type: Item
     size: Small

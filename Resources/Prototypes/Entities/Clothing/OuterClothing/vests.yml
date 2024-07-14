@@ -78,3 +78,23 @@
     sprite: Clothing/OuterClothing/Vests/vest.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Vests/vest.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestBlueshield
+  name: Colete a prova de balas avançado
+  description: Nanocompósitos kevlar com liga metálica e nanotubos de carbono emaranhados te protegerão pra que você mantenha o comando vivo.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Vests/blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Vests/blueshield.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.4
+        Heat: 0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.9

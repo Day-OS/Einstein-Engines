@@ -11,7 +11,7 @@
 
 - type: entity
   id: ActionScream
-  name: Scream
+  name: Gritar
   description: AAAAAAAAAAAAAAAAAAAAAAAAA
   noSpawn: true
   components:
@@ -23,8 +23,8 @@
 
 - type: entity
   id: ActionTurnUndead
-  name: Turn Undead
-  description: Succumb to your infection and become a zombie.
+  name: Transforme Zumbi
+  description: Sucumbir à infecção e tornar-se um zumbi.
   noSpawn: true
   components:
   - type: InstantAction
@@ -35,8 +35,8 @@
 
 - type: entity
   id: ActionToggleLight
-  name: Toggle Light
-  description: Turn the light on and off.
+  name: Alternar luz
+  description: Ligue e desligue a luz.
   noSpawn: true
   components:
   - type: InstantAction
@@ -46,8 +46,8 @@
 
 - type: entity
   id: ActionOpenStorageImplant
-  name: Open Storage Implant
-  description: Opens the storage implant embedded under your skin
+  name: Abre o Implante de Armazenamento
+  description: Abre o implante de armazenamento embutido sob sua pele
   noSpawn: true
   components:
   - type: InstantAction
@@ -61,8 +61,8 @@
 - type: entity
   parent: BaseSuicideAction
   id: ActionActivateMicroBomb
-  name: Activate Microbomb
-  description: Activates your internal microbomb, completely destroying you and your equipment
+  name: Ativar Microbomba
+  description: Ativa sua microbomba interna, destruindo completamente você e seu equipamento
   noSpawn: true
   components:
   - type: InstantAction
@@ -78,8 +78,8 @@
 - type: entity
   parent: BaseSuicideAction
   id: ActionActivateDeathAcidifier
-  name: Activate Death-Acidifier
-  description: Activates your death-acidifier, completely melting you and your equipment
+  name: Ativar Acidificador de Morte
+  description: Ativa seu acidificador de morte, derretendo completamente você e seu equipamento
   noSpawn: true
   components:
   - type: InstantAction
@@ -95,8 +95,8 @@
 
 - type: entity
   id: ActionActivateFreedomImplant
-  name: Break Free
-  description: Activating your freedom implant will free you from any hand restraints
+  name: Libertar
+  description: Ativar seu implante de liberdade irá libertá-lo de qualquer restrição de mão
   noSpawn: true
   components:
   - type: InstantAction
@@ -111,8 +111,8 @@
 
 - type: entity
   id: ActionOpenUplinkImplant
-  name: Open Uplink
-  description: Opens the syndicate uplink embedded under your skin
+  name: Abrir Uplink
+  description: Abre o uplink do Sindicato incorporado em sua pele
   noSpawn: true
   components:
   - type: InstantAction
@@ -125,8 +125,8 @@
 
 - type: entity
   id: ActionActivateEmpImplant
-  name: Activate EMP
-  description: Triggers a small EMP pulse around you
+  name: Ativar EMP
+  description: Aciona um pequeno pulso EMP ao seu redor
   noSpawn: true
   components:
   - type: InstantAction
@@ -141,8 +141,8 @@
 
 - type: entity
   id: ActionActivateScramImplant
-  name: SCRAM!
-  description: Randomly teleports you within a large distance.
+  name: VAZA!
+  description: Teletransporta você aleatoriamente para uma grande distância.
   noSpawn: true
   components:
   - type: InstantAction
@@ -158,8 +158,8 @@
 
 - type: entity
   id: ActionActivateDnaScramblerImplant
-  name: Scramble DNA
-  description:  Randomly changes your name and appearance.
+  name: Misturar DNA
+  description:  Muda aleatoriamente seu nome e aparência.
   noSpawn: true
   components:
   - type: InstantAction
@@ -173,8 +173,8 @@
 
 - type: entity
   id: ActionToggleSuitPiece
-  name: Toggle Suit Piece
-  description: Remember to equip the important pieces of your suit before going into action.
+  name: Alternar Peça de Traje
+  description: Lembre-se de equipar as peças importantes do seu traje antes de entrar em ação.
   noSpawn: true
   components:
   - type: InstantAction
@@ -184,8 +184,8 @@
 
 - type: entity
   id: ActionCombatModeToggle
-  name: "[color=red]Combat Mode[/color]"
-  description: Enter combat mode
+  name: "[color=red]Modo de Combate[/color]"
+  description: Entre no modo de combate
   noSpawn: true
   components:
   - type: InstantAction
@@ -199,8 +199,8 @@
 - type: entity
   id: ActionCombatModeToggleOff
   parent: ActionCombatModeToggle
-  name: "[color=red]Combat Mode[/color]"
-  description: Enter combat mode
+  name: "[color=red]Modo de Combate[/color]"
+  description: Entre no modo de combate
   noSpawn: true
   components:
   - type: InstantAction
@@ -210,8 +210,8 @@
 
 - type: entity
   id: ActionChangeVoiceMask
-  name: Set name
-  description: Change the name others hear to something else.
+  name: Escolha Nome
+  description: Mude o nome que outras pessoas ouvem para outro nome.
   noSpawn: true
   components:
   - type: InstantAction
@@ -220,8 +220,8 @@
 
 - type: entity
   id: ActionVendingThrow
-  name: Dispense Item
-  description: Randomly dispense an item from your stock.
+  name: Dispensar Item
+  description: Dispense aleatoriamente um item do seu estoque.
   noSpawn: true
   components:
   - type: InstantAction
@@ -230,8 +230,8 @@
 
 - type: entity
   id: ActionArtifactActivate
-  name: Activate Artifact
-  description: Immediately activates your current artifact node.
+  name: Ativar artefato
+  description: Ativa imediatamente seu nó de artefato atual.
   noSpawn: true
   components:
   - type: InstantAction
@@ -243,8 +243,8 @@
 
 - type: entity
   id: ActionToggleBlock
-  name: Block
-  description: Raise or lower your shield.
+  name: Bloquear
+  description: Levante ou Abaixe seu escudo.
   noSpawn: true
   components:
   - type: InstantAction
@@ -254,8 +254,8 @@
 
 - type: entity
   id: ActionClearNetworkLinkOverlays
-  name: Clear network link overlays
-  description: Clear network link overlays.
+  name: Limpar sobreposições de link de rede
+  description: Limpar sobreposições de link de rede
   noSpawn: true
   components:
   - type: InstantAction
@@ -268,8 +268,8 @@
 
 - type: entity
   id: ActionAnimalLayEgg
-  name: Lay egg
-  description: Uses hunger to lay an egg.
+  name: Botar ovo
+  description: Usa a fome para botar um ovo.
   noSpawn: true
   components:
   - type: InstantAction
@@ -279,8 +279,8 @@
 
 - type: entity
   id: ActionSleep
-  name: Sleep
-  description: Go to sleep.
+  name: Dormir
+  description: Vá dormir.
   noSpawn: true
   components:
   - type: InstantAction
@@ -291,8 +291,8 @@
 
 - type: entity
   id: ActionWake
-  name: Wake up
-  description: Stop sleeping.
+  name: Acordar
+  description: Parar de dormir.
   noSpawn: true
   components:
   - type: InstantAction
@@ -304,7 +304,7 @@
 - type: entity
   id: ActionActivateHonkImplant
   name: Honk
-  description: Activates your honking implant, which will produce the signature sound of the clown.
+  description: Ativa seu implante de buzina, que produzirá o som de assinatura do palhaço.
   noSpawn: true
   components:
   - type: InstantAction
@@ -314,8 +314,8 @@
 
 - type: entity
   id: ActionFireStarter
-  name: Ignite
-  description: Ignites enemies in a radius around you.
+  name: Acender
+  description: Incendeia inimigos em um raio ao seu redor.
   noSpawn: true
   components:
   - type: InstantAction
@@ -326,8 +326,8 @@
 
 - type: entity
   id: ActionToggleEyes
-  name: Open/Close eyes
-  description: Close your eyes to protect your peepers, or open your eyes to enjoy the pretty lights.
+  name: Abrir/Fechar os olhos
+  description: Feche os olhos para proteger seus olhos ou abra os olhos para apreciar as lindas luzes.
   noSpawn: true
   components:
   - type: InstantAction

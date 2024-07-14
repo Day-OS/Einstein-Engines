@@ -15,7 +15,7 @@
         maxVol: 20 # For sprinkles or something? Idk.
         reagents:
         - ReagentId: Nutriment
-          Quantity: 10
+          Quantity: 14 #Pirata: Alterado o valor para tentar condizer com os ingredientes
 
 # Ice-cream
 

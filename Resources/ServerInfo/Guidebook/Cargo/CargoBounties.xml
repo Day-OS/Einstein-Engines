@@ -1,29 +1,28 @@
 <Document>
-  # Cargo Bounties
-  [textlink="Logistics" link="Cargo"] can always make money selling items whenever they feel like it. However, there are ways to make even more money by being more selective about what and when you're selling. One of these ways is [color=#a4885c]bounties[/color].
-
+# Bounties de Cargo
+   [textlink="Cargo" link="Cargo"] sempre pode ganhar dinheiro vendendo itens sempre que quiser. No entanto, existem maneiras de ganhar ainda mais dinheiro sendo mais seletivo sobre o que e quando você vende. Uma dessas formas é [color=#a4885c]bounties[/color].
   <Box>
     <GuideEntityEmbed Entity="ComputerCargoBounty"/>
   </Box>
-  Every station has a fixed amount of bounties that are globally available. These can be checked at the [color=#a4885c]cargo bounty computer[/color], which shows the following information about them:
-  - What items are needed to fulfill the bounty
-  - How much money do you get for completing the bounty
-  - How much time is left before the bounty expires
+Cada estação tem uma quantidade fixa de bounties disponíveis globalmente. Eles podem ser verificados no [color=#a4885c]cargo bounty computer[/color], que mostra as seguintes informações sobre eles:
+   - Quais itens são necessários para cumprir a bounties
+   - Quanto dinheiro você ganha por completar a bounties
+   - Quanto tempo resta antes que a bounties expire
 
-  Assuming that you are able to aquire all of the items for it in a time efficient and low-cost manner, you will be able to complete the bounty and get a significantly higher payout than you would be selling the items conventionally.
+   Supondo que você seja capaz de adquirir todos os itens de maneira eficiente e de baixo custo, você será capaz de completar a bounties e obter um pagamento significativamente maior do que venderia os itens convencionalmente.
 
-  ## Completing Bounties
+   ## Concluindo bounties
   <Box>
     <GuideEntityEmbed Entity="PaperCargoBountyManifest"/>
     <GuideEntityEmbed Entity="CrateGenericSteel"/>
     <GuideEntityEmbed Entity="CargoPallet"/>
   </Box>
-  Once you have collected the items you need for a bounty, completing it is a simple process:
-  - Place all of the items inside of the crate and [bold]close it![/bold]
-  - Get the bounties manifest label by clicking the [color=#a4885c]print label[/color] button on corresponding entry on the cargo bounty computer.
-  - Place the label on the crate containing the items.
-  - Move the crate onto the cargo shuttle.
-  - Sell it.
+Depois de coletar os itens necessários para uma bounties, concluí-la é um processo simples:
+   - Coloque todos os itens dentro da caixa e [bold]feche-a![/bold]
+   - Obtenha o rótulo do manifesto de bounties clicando no botão [color=#a4885c]print label[/color] na entrada correspondente no computador de bounties de carga.
+   - Coloque a etiqueta na caixa que contém os itens.
+   - Mova a caixa para o transporte de carga.
+   - Venda.
 
-  And there you go! After you follow these steps, the bounty should disappear from the computer and a new one will take its place.
+   E aí está! Depois de seguir essas etapas, a bounties deverá desaparecer do computador e uma nova tomará seu lugar.
 </Document>

@@ -1,0 +1,83 @@
+#portas para eventos em planetas e cidades
+
+#Shuttle portas
+- type: entity
+  parent: AirlockShuttle
+  id: AirlockExternalComercianteShuttleLocked
+  suffix: External, Docking, Comerciante, Locked
+  components:
+  - type: AccessReader
+    access: [["Comerciante"]]
+
+- type: entity
+  parent: AirlockGlassShuttle
+  id: AirlockExternalGlassShuttleComercianteLocked
+  suffix: External, Glass, Docking, Comerciante, Locked
+  components:
+  - type: AccessReader
+    access: [["Comerciante"]]
+
+#airlock
+- type: entity
+  parent: Airlock
+  id: AirlockCidadaoLocked
+  suffix: Cidadao, Locked
+  components:
+  - type: AccessReader
+    access: [["Cidadao"]]
+  
+- type: entity
+  parent: AirlockGlass
+  id: AirlockCidadaoGlassLocked
+  suffix: Cidadao, Locked
+  components:
+  - type: AccessReader
+    access: [["Cidadao"]]
+
+- type: entity
+  parent: AirlockCargo
+  id: AirlockComercianteLocked
+  suffix: Comerciante, Locked
+  components:
+  - type: AccessReader
+    access: [["Comerciante"]]
+
+- type: entity
+  parent: AirlockCargoGlass
+  id: AirlockComercianteGlassLocked
+  suffix: Comerciante, Locked
+  components:
+  - type: AccessReader
+    access: [["Comerciante"]]
+
+- type: entity
+  parent: AirlockSecurity
+  id: AirlockPoliciaLocked
+  suffix: Policia, Locked
+  components:
+  - type: AccessReader
+    access: [["Policia"]]
+
+- type: entity
+  parent: AirlockSecurityGlass
+  id: AirlockPoliciaGlassLocked
+  suffix: Policia, Locked
+  components:
+  - type: AccessReader
+    access: [["Policia"]]   
+
+- type: entity
+  parent: Windoor
+  id: WindoorComercianteLocked
+  suffix: Comerciante, Locked
+  components:
+  - type: AccessReader
+    access: [["Comerciante"]]
+
+- type: entity
+  parent: WindoorSecure
+  id: WindoorSecureComercianteLocked
+  suffix: Comerciante, Locked
+  components:
+  - type: AccessReader
+    access: [["Comerciante"]]

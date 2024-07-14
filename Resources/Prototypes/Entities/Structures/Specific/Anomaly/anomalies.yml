@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: BaseAnomaly
-  name: anomaly
-  description: An impossible object. Should you be standing this close to it?
+  name: anomalia
+  description: Um objeto impossível. Você deveria estar tão perto disso?
   components:
   - type: Anomaly
     pulseSound:
@@ -640,9 +640,9 @@
 
 - type: entity
   id: AnomalyFloraBulb
-  name: strange glowing berry
+  name: fruta estranha e brilhante
   parent: BaseStructure
-  description: It's a beautiful strange glowing berry. It seems to have something growing inside it...
+  description: É uma linda fruta estranha e brilhante. Parece ter algo crescendo dentro dele ...
   suffix: Flora Anomaly
   components:
   - type: Transform

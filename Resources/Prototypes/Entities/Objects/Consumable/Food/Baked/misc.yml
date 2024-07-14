@@ -406,9 +406,9 @@
         maxVol: 20
         reagents:
         - ReagentId: Nutriment
-          Quantity: 8
+          Quantity: 10
         - ReagentId: Vitamin
-          Quantity: 2
+          Quantity: 4
 
 # Misc
 
@@ -420,6 +420,15 @@
   components:
   - type: Sprite
     state: pretzel
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+        - ReagentId: Vitamin
+          Quantity: 4
 
 - type: entity
   name: cannoli

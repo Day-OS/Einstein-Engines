@@ -1,0 +1,28 @@
+# Identidades para facções nao pertencente a estação
+
+# ID Comerciante
+- type: entity
+  parent: IDCardStandard
+  id: ComercianteIDCard
+  name: comerciante ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idpassenger
+  - type: PresetIdCard
+    job: Comerciante
+
+# ID Soldado
+- type: entity
+  parent: IDCardStandard
+  id: SoldadoIDCard
+  name: soldado ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idpassenger
+  - type: PresetIdCard
+    job: Soldado
+

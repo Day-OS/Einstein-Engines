@@ -1,0 +1,62 @@
+# Definição de roupa iniciais para habitantes de Cidade e Planetas
+
+# Comerciante
+- type: job
+  id: Comerciante
+  name: comerciante
+  description: Faça comercio em nome da Federação do Comercio
+  playTimeTracker: JobComerciante
+  startingGear: ComercianteCidadeGear
+  icon: "JobIconPassenger"
+  supervisors: Federação do Comercio
+  access:
+  - External
+  - Cidadao
+  - Comerciante
+
+- type: startingGear
+  id: ComercianteCidadeGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlue
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesColorBrown
+    id: ComercianteIDCard
+    ears: ClothingHeadsetGrey
+    pocket1: RadioHandheld
+  innerclothingskirt: ClothingUniformJumpskirtLawyerBlue
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
+
+# Soldado
+- type: job
+  id: Soldado
+  name: soldado
+  description: Dê sua vida em nome da federação solar
+  playTimeTracker: JobSoldado
+  startingGear: SoldadoCidadeGear
+  icon: "JobIconPassenger"
+  supervisors: Federação Solar
+  access:
+  - External
+  - Maintenance
+  - Cidadao
+  - Comerciante
+  - Policia
+
+- type: startingGear
+  id: SoldadoCidadeGear
+  equipment:
+    head: ClothingHeadHelmetSwat
+    jumpsuit: ClothingUniformJumpsuitColorDarkBlue
+    back: ClothingBackpackSoldado
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesSecurity
+    outerClothing: ClothingOuterArmorHeavy
+    id: SoldadoIDCard
+    ears: ClothingHeadsetGrey
+    belt: ClothingBeltMilitarySoldado
+    pocket1: RadioHandheld
+    pocket2: WeaponPistolMk58
+  innerclothingskirt: ClothingUniformJumpskirtColorDarkBlue
+  satchel: ClothingBackpackSatchelSoldado
+  duffelbag: ClothingBackpackDuffelSoldado

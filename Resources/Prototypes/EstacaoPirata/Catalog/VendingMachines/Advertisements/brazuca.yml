@@ -1,0 +1,10 @@
+﻿- type: advertisementsPack
+  id: BrazucaDrinksAds
+  advertisements:
+  - advertisement-brazuca-1
+  - advertisement-brazuca-2
+  - advertisement-brazuca-3
+  - advertisement-brazuca-4
+  - advertisement-brazuca-5
+  - advertisement-brazuca-6
+  - advertisement-brazuca-7

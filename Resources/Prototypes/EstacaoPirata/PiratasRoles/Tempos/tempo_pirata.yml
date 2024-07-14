@@ -1,0 +1,8 @@
+- type: playTimeTracker
+  id: JobBlueshield
+
+- type: playTimeTracker
+  id: JobComerciante
+
+- type: playTimeTracker
+  id: JobSoldado

@@ -1,0 +1,153 @@
+Name: Pirata
+Order: -1
+Entries:
+- author: rber
+  time: '2024-02-11T23:12:49-03:00'
+  changes:
+  - type: Add
+    message: Readiciona Opporozidona, remédio de crio que remove podridão de cadáveres.
+- author: DoutorWhite
+  time: '2024-02-12T16:36:56-03:00'
+  changes:
+  - type: Tweak
+    message: Agora é possível fabricar medipens vazias, que podem ser recarregadas pelo Medipen Refiller.
+  - type: Add
+    message: Adiciona o Medipen Refiller, uma máquina capaz de recarregar medipens.
+- author: LaryALagosta
+  time: '2024-02-20T13:22:12-03:00'
+  changes:
+  - type: Add
+    message: Adicionado Chocolate derretido, feito com pó de cacau e açúcar.
+  - type: Add
+    message: Adicionado duas novas bebidas "Clown Blood" e "Bubble Tea"
+  - type: Add
+    message: Adicionado várias novas receitas para seu chefe local fazer.
+  - type: Add
+    message: Adicionado uma nova página no guidebook somente para receitas únicas do Pirata!
+- author: Day-OS
+  time: '2024-02-21T14:22:00-03:00'
+  changes:
+  - type: Add
+    message: Adiciona Conjunto de colegial (Encontrado no Clothesmate)
+  - type: Add
+    message: Adiciona Conjunto de colegial japonês (Encontrado no Clothesmate)
+  - type: Add
+    message: Adiciona Vestido vermelho (Encontrado no Clothesmate)
+  - type: Add
+    message: Adiciona Vestido de casamento (Encontrado no Clothesmate)
+  - type: Add
+    message: Adiciona Roupa formal modulável com versão Jumpskirt. Versão genérica adicionada por padrão (Encontrado no Clothesmate)
+  - type: Add
+    message: Adiciona Roupa Intima Simples (Encontrado no Clothesmate)
+  - type: Add
+    message: Adiciona Conjunto RoboCop (Loot da Maint)
+- author: Day-OS
+  time: '2024-02-28T14:04:00-03:00'
+  changes:
+  - type: Add
+    message: Adiciona espécie I.P.C.
+- author: Day-OS
+  time: '2024-03-01T14:22:38-03:00'
+  changes:
+  - type: Fix
+    message: Conserta nomes gerados automaticamente da espécie IPC na tradução PT-BR
+  - type: Fix
+    message: Conserta os efeitos especiais de recarregamento do IPC
+  - type: Fix
+    message: Conserta crash do cliente relacionado a conversão ruim de cores na tradução PT-BR
+- author: Crono209
+  time: '2024-03-02T00:00:00-03:00'
+  changes:
+  - type: Add
+    message: Adiciona espécie Oni
+- author: Dasprino007
+  time: '2024-03-02T00:00:00-03:00'
+  changes:
+  - type: Add
+    message: Volta o mapa Barratry (essa mudança estava listada com o autor errado, corrigi agora)
+- author: Criso
+  time: '2024-03-04T00:00:00-03:00'
+  changes:
+  - type: Add
+    message: Adiciona o mapa original Falcon
+- author: Day-OS
+  time: '2024-03-04T00:00:00-03:00'
+  changes:
+  - type: Add
+    message: Adiciona impressoras do Corvax
+- author: DoutorWhite
+  time: '2024-03-04T00:00:00-03:00'
+  changes:
+  - type: Fix
+    message: Correções para que o mapa Falcon funcione corretamente no Pirata
+  - type: Fix
+    message: Traduz os documentos da impressora
+
+- author: Day-OS
+  time: '2024-03-07T03:30:00-03:00'
+  changes:
+  - type: Add
+    message: Adiciona DeathGasp para seres de silício
+  - type: Add
+    message: Adiciona guia de funcionamento do IPC
+  - type: Tweak
+    message: Torna IPCs MUITO vulneráveis a calor e a choques elétricos
+  - type: Tweak
+    message: Torna IPCs abraçáveis
+  - type: Tweak
+    message: Remove capacidade de IPCs possuirem barbas
+  - type: Tweak
+    message: Torna IPCs capazes de receber dano por EMP e stunbattons
+  - type: Tweak
+    message: Torna IPCs capazes de usar óculos
+  - type: Tweak
+    message: Reajusta as vozes dos emotes do IPC para serem o beep do PAI
+  - type: Tweak
+    message: Torna IPCs cegáveis no momento de usarem welding (câmeras são tão cegáveis quanto olhos)
+- author: SimaZao
+  time: '2024-03-07T03:30:00-03:00'
+  changes:
+  - type: Add
+    message: Tradução de varias entidades
+- author: Crono209
+  time: '2024-03-07T03:30:00-03:00'
+  changes:
+  - type: Add
+    message: Adiciona espécie Felinídeo
+- author: Day-OS
+  time: '2024-03-10T11:00:00-03:00'
+  changes:
+  - type: Fix
+    message: >-
+      Consertos diversos de IPC: Não caía morto, falava em crit, ficava com lesão ocular pra sempre e não tomava slip
+  - type: Add
+    message: Adiciona efeitos sonoros pros emotes de IPC
+  - type: Add
+    message: Adiciona resprites de Vulp e máscaras e capacetes com focinho
+- author: Dasprino007
+  time: '2024-03-10T11:00:00-03:00'
+  changes:
+  - type: Add
+    message: Adiciona nos protótipos diversos sprites de blueshield do Furones que existiam mas não eram utilizados
+- author: SimaZao
+  time: '2024-03-10T11:00:00-03:00'
+  changes:
+  - type: Tweak
+    message: Renomeia Passageiro de volta pra Assistente
+  - type: Tweak
+    message: Mais correções em tradução
+- author: DoutorWhite
+  time: '2024-03-10T11:00:00-03:00'
+  changes:
+  - type: Fix
+    message: Conserta glitch e vôo de ninja stealth dentro dágua
+- author: rber
+  time: '2024-03-10T11:00:00-03:00'
+  changes:
+  - type: Fix
+    message: Corrige Opporozidona não reverter estados de podridão
+- author: rber
+  time: '2024-04-21T22:35:32-03:00'
+  changes:
+  - type: Add # One of the following: Add, Remove, Tweak, Fix
+    message: Adiciona o Changelog do Pirata!

@@ -125,6 +125,12 @@
   - type: Sprite
     state: chocolatebar-open
   - type: Item
+  - type: Extractable
+    grindableSolutionName: food
+    juiceSolution:
+      reagents:
+      - ReagentId: ChocolateDerretido
+        Quantity: 10 
   - type: SolutionContainerManager
     solutions:
       food:

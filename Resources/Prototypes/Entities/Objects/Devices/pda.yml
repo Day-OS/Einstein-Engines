@@ -1144,3 +1144,15 @@
       whitelist:
         components:
           - Cartridge
+
+- type: entity
+  parent: BasePDA
+  id: BlueshieldPDA
+  name: PDA de Blushield
+  description: A guerra nunca muda!.
+  components:
+  - type: Pda
+    id: BlueshieldIDCard
+    state: pda-blueshield
+  - type: Icon
+    state: pda-blueshield

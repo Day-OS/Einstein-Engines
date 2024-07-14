@@ -929,3 +929,15 @@
       amount: 1
   products:
     Cola: 4
+
+- type: reaction
+  id: ChocolateQuenteReaction
+  impact: Low
+  minTemp: 344
+  reactants:
+    CocoaPowder:
+      amount: 0.5
+    Sugar:
+      amount: 0.5
+  products:
+    ChocolateDerretido: 1

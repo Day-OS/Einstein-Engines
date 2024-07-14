@@ -1,0 +1,31 @@
+- type: entity
+  name: Chupacu
+  parent: MobXeno
+  id: MobChupacu
+  components:
+    - type: Sprite
+      drawdepth: Mobs
+      sprite: EstacaoPirata/Mobs/Aliens/Xenos/chupacu.rsi
+      layers:
+        - map: ["enum.DamageStateVisualLayers.Base"]
+          state: running
+    - type: MobThresholds
+      thresholds:
+        0: Alive
+        350: Critical
+        400: Dead
+    - type: SlowOnDamage
+      speedModifierThresholds:
+        250: 0.7
+    - type: Bloodstream
+      bloodReagent: Slime
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PhysShapeCircle
+            radius: 0.35
+          density: 200
+          mask:
+            - MobMask
+          layer:
+            - MobLayer

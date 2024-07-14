@@ -1,49 +1,49 @@
 <Document>
-# Power
+# Energia
 
-SS14 has a fairly in-depth power system through which all devices on the station receive electricity. It's divided into three main powernets; HV, LV, and MV.
+SS14 tem um sistema de energia bem elaborado onde todos os dispositivo na estação recebem eletricidade. O sistema é divido em três redes de energia: AT, MV e BT.
 <Box>
 <GuideEntityEmbed Entity="CableHVStack"/>
 <GuideEntityEmbed Entity="CableMVStack"/>
 <GuideEntityEmbed Entity="CableApcStack"/>
 </Box>
 
-## Cabling
-The three major cable types (HV, MV, and LV) can be used to form independent powernets. Examine them for a description of their uses.
+## Cabeamento
+Os três tipos de cabos (AT, MV e BT) podem ser usados para formar redes de energia independentes. Examine eles para uma descrição melhor de seus usos.
 <Box>
 <GuideEntityEmbed Entity="CableHV"/>
 <GuideEntityEmbed Entity="CableMV"/>
 <GuideEntityEmbed Entity="CableApcExtension"/>
 </Box>
 
-## Power storage
-Each power storage device presented functions as the transformer for its respective power level (HV, MV, and LV) and also provides a fairly sizable backup battery to help flatten out spikes and dips in power usage.
+## Armazenamento de Energia
+Cada dispositivo de armazenamento apresentado funciona como um transformador para o seu respectivo nivel elétrico, (AT, MT, e BT)
 <Box>
 <GuideEntityEmbed Entity="SMESBasic"/>
 <GuideEntityEmbed Entity="SubstationBasic"/>
 <GuideEntityEmbed Entity="APCBasic"/>
 </Box>
 
-## Ramping
-Contrary to what one might expect from a video game electrical simulation, power is not instantly provided upon request. Generators and batteries take time to ramp up to match the draw imposed on them, which leads to brownouts when there are large changes in current draw all at once, for example when batteries run out.
+## Aumento de Energia
+Ao contrario do que muitos esperam de simulações em video games, energia não é provida em instantes quando necessária. Geradores e baterias demoram tempo para aumentar sua potência para igualar a carga imposta nelees, o que leva a quedas de energia quando tem grandes difrenças na carga, por exemplo quando as baterias acabam.
 
-## Installing power storage
-Substations are the most self-explanatory. Simply install the machine on top of an MV and HV cable, it will draw power from the HV cable to provide to MV.
+## Instalando armazenamentos de energia
+Sub-estações são as mais auto-explicativas. Simplesmente instale a máquina em cima de cabos AT e MT, vai puxar energia do cabo AT e transferir para o cabo MT.
 
-Installing APCs is similarly simple, except APCs are exclusively wallmounted machinery and cannot be installed on the floor. Make sure it has both MV and LV connections.
+Instalar APCs é simples também, a diferença é que APCs são máquinas montadas na parede e não podem ser instaladas no chão. Tenha certeza que tenha conexões de cabos MT e BT.
 
-Installing a SMES requires you construct a cable terminal to use as the input. The SMES will draw power from the terminal and send power out from underneath. The terminal will ensure that the HV input and HV output do not connect. Avoid connecting a SMES to itself, this will result in a short circuit which can result in power flickering or outages depending on severity.
+Installar SMES requer que voce construa um terminal de cabos e use como entrada. O SMES vai puxar energia do terminal e enviar energia por baixo. O terminal vai assegurar que o cabo AT de saida e entrada não se conectem. Evite conectar um SMES a ele mesmo, isso vai reesultar e curtos circuitos e pode resultar em picos de energia ou apagões dependendo da severidade.
 
-## APC breaking
-Currently the only power storage device that has a limit to its power network is APC. As soon as all connected devices and machinery demand more than [color=#a4885c]24kW[/color] it's breaker will pop and everything will turn off.
+## Estouro de APC
+Atualmente a unica maquina de armazenamento de energia que tem um limite é o APC. No momento que todos os dispositivos conectados e maquinas precisarem mais de [color=#a4885c]24kW[/color] o seu disjuntor vai estourar e tudo vai desligar.
 <Box>
 <GuideEntityEmbed Entity="APCBasic"/>
 </Box>
 
-## Checking power grid
-1. Use the [color=#a4885c]t-ray scanner[/color] in order to locate cables that are hidden under tiles. (skip this step if cables aren't hidden)
-2. Pry open the tile that is blocking your access to the cable with a [color=#a4885c]crowbar[/color]. (skip this step if cables aren't hidden)
-3. Equip your trusty [color=#a4885c]Multitool[/color] and click on any cable to see powergrid stats.
+## Verificando a rede elétrica
+1. Use o [color=#a4885c]scanner de raios-t[/color] para localizar os cabos que estão escondidos entre os ladrilhos. (Ignore essa etapa se os cabos não estiverem escondidos)
+2. Retire o ladrilho que está bloqueando o seu acesso ao cabo com um [color=#a4885c]pé de cabra[/color].
+3. Equipe sua [color=#a4885c]Multiferramenta[/color] e clique em qualquer cabo para ver o seu estado atual na rede elétrica.
 <Box>
 <GuideEntityEmbed Entity="Multitool"/>
 <GuideEntityEmbed Entity="Crowbar"/>

@@ -1,0 +1,11 @@
+- type: advertisementsPack
+  id: FutebolAds
+  advertisements:
+  - advertisement-futebol-1
+  - advertisement-futebol-2
+  - advertisement-futebol-3
+  - advertisement-futebol-4
+  - advertisement-futebol-5
+  - advertisement-futebol-6
+  - advertisement-futebol-7
+  - advertisement-futebol-8

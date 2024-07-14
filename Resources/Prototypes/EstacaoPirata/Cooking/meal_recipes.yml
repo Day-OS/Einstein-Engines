@@ -1,0 +1,98 @@
+#Pudims
+- type: microwaveMealRecipe
+  id: RecipePudim
+  name: pudim recipe
+  result: FoodPuddingNormal
+  time: 15
+  reagents:
+    Cream: 10
+    Egg: 6
+    Sugar: 5
+    Water: 5
+  solids:
+    FoodPlate: 1
+
+- type: microwaveMealRecipe
+  id: RecipePudimChocolate
+  name: pudim de chocolate recipe
+  result: FoodPuddingChocolate
+  time: 15
+  reagents:
+    Cream: 10
+    Egg: 6
+    Sugar: 5
+    Water: 5
+    ChocolateDerretido: 10
+  solids:
+    FoodPlate: 1
+
+- type: microwaveMealRecipe
+  id: RecipeMuffinComum
+  name: muffin comum
+  result: FoodBakedMuffin
+  time: 10
+  reagents:
+    Flour: 5
+    Egg: 6
+  solids:
+    FoodPlateSmall: 1
+
+- type: microwaveMealRecipe
+  id: RecipeMuffinBerry
+  name: muffin berry
+  result: FoodBakedMuffinBerry
+  time: 10
+  reagents:
+    Flour: 5
+    Egg: 6
+  solids:
+    FoodPlateSmall: 1
+    FoodBerries: 2
+
+- type: microwaveMealRecipe
+  id: RecipeBakedPretzel
+  name: pretzel
+  result: FoodBakedPretzel
+  time: 10
+  reagents:
+    Sugar: 5
+  solids:
+    FoodDough: 1
+
+- type: microwaveMealRecipe
+  id: RecipeMealNachos
+  name: nachos comum
+  result: FoodMealNachos
+  time: 10
+  reagents:
+    TableSalt: 5
+  solids:
+    FoodDoughTortillaSlice: 3
+
+- type: microwaveMealRecipe
+  id: RecipeMealNachosCheesy
+  name: nachos com queijo
+  result: FoodMealNachosCheesy
+  time: 5
+  solids:
+    FoodMealNachos: 1
+    FoodCheeseSlice: 2
+
+- type: microwaveMealRecipe
+  id: RecipeMealNachosCubanos
+  name: nachos cubanos
+  result: FoodMealNachosCuban
+  time: 5
+  solids:
+    FoodMealNachos: 1
+    FoodChili: 1
+
+#Salame seria uma boa colocar como craft. Atualmente não sei fazer isso.
+- type: microwaveMealRecipe
+  id: RecipeSalame
+  name: salame cru
+  result: FoodMeatSalami
+  time: 5
+  solids:
+    FoodMeatMeatball: 1 #Talvez adicionar mais uma meatball
+    FoodMeatCutlet: 4

@@ -1,26 +1,28 @@
 <Document>
-# Antimatter Engine (AME)
 
-The AME is one of the simplest engines available. You put together the multi-tile structure, stick some fuel into it, and you're all set. This doesn't mean it isn't potentially dangerous with overheating though.
+# Reator Anti-matéria(RAM)
 
-## Construction
-<Box>Required parts:</Box>
+O RAM(em inglês AME) é um dos reatores mais simples. Você coloca a sua estrutura modular, coloca um pouco de combustível, e está pronto. Isso não quer dizer que não é potencialmente perigoso com superaquecimento do controlador.
+
+## Construção
+<Box>Partes Necessárias:</Box>
 <Box>
 <GuideEntityEmbed Entity="AmeController"/>
 <GuideEntityEmbed Entity="AmePartFlatpack"/>
 <GuideEntityEmbed Entity="AmeJar"/>
 </Box>
 
-To assemble an AME, start by wrenching down the controller on the far end of a HV wire. On most stations, there's catwalks to assist with this. From there, start putting down a 3x3 or larger square of AME parts in preparation for construction, making sure to maximize the number of "center" pieces that are surrounded on all 8 sides.
+Para montar o RAM(AME) comece fixando o controlador na parte mais distante do cabo AT. Na maioria das estações existem passarelas para auxiliar essa etapa. Depois, comece colocando partes do RAM(AME) em 3x3 ou um quadrado maior de partes RAM(AME), tenha certeza de colocar o maximo possivel de peças envolta do "centro" em todos os 8 lados.
 
-Once this is done, you can use a multitool to convert each AME part into shielding, which should form a finished AME configuration. From there, insert a fuel jar, set the fuel rate to [color=#a4885c]twice the core count or less[/color], and turn on injection.
+Depois de fazer isso, use a multiferramenta para converter cada parte RAM(AME) desmontada em montada, o que deve criar uma configuração de AME pronta. A partir daí, coloque o jarro de combustível, deixe a taxa de injeção do combustível ao [color=#a4885c]dobro da quantidade de núcleos ou menos[/color], e ligue a injeção.
 
-## Fuel Economy
-The closer you are to the perfect ratio of [color=#a4885c]1:2[/color] (1 AME core to 2 fuel rate) the more efficient you'll be. You're cutting fuel efficiency to [color=#a4885c]50% and less[/color] if you're using more cores, but less fuel injection rate.
-For an example [color=#76db91]3 core and 6 fuel rate[/color] will generate [color=#76db91]240kW[/color], while [color=#f0684d]8 core 8 fuel rate[/color] will generate [color=#f0684d]160kW[/color]. Generating 80kW less while spending 2 more fuel each injection.
+## Economia de combustível
+Quanto mais perto da fração de [color=#a4885c]1:2[/color] (1 núcleo RAM e 2 de injeção) o mais eficiente você será. A eficiência do combustível será cortada em [color=#a4885c]50% ou menos[/color] se você estiver usando mais núclos, mas gastará menos combustível de injeção.
+Exemplo, [color=#76db91]3 núcleos e 6 injeções de combustível[/color] gerará [color=#76db91]240kW[/color], enquanto [color=#f0684d]8 núcleos e 8 de injeção rate[/color] gerará [color=#f0684d]160kW[/color]. Gerando 80kW a menos enquanto gasta 2 mais de combustível por injeção.
 
-## Upgrading the AME
+## Melhorando o AME
 
-You can generally only upgrade the AME by getting more cores, which can be done by ordering more AME packages from [color=#a4885c]logistics[/color].
+[color=red]Você geralmente só consegue melhorar o AME conseguindo mais núcleos, que pode ser feito pedindo mais pacotes de RAM(AME) do departamento de carga.
+-> De acordo com a nova politica da Nanotrassen, a estação não poderá comprar novas partes de AME no [color=#a4885c]departaemnto de carga[/color], ao invés disso, peça partes usando o fax.
 
 </Document>

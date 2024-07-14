@@ -441,6 +441,7 @@
       - CryoPodMachineCircuitboard
       - VaccinatorMachineCircuitboard
       - DiagnoserMachineCircuitboard
+      - MedipenRefillerMachineCircuitboard
       - BiomassReclaimerMachineCircuitboard
       - BiofabricatorMachineCircuitboard
       - SurveillanceCameraRouterCircuitboard
@@ -931,6 +932,8 @@
       - MedkitAdvanced
       - MedkitRadiation
       - MedkitCombat
+      - ChemicalMedipen
+      - ChemicalMedipen
       - Scalpel
       - Retractor
       - Cautery

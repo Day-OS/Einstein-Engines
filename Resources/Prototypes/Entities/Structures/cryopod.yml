@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: CryogenicSleepUnit
-  name: cryogenic sleep unit
-  description: A super-cooled container that keeps crewmates safe during space travel.
+  name: Cama Criogênica
+  description: Um contêiner super-resfriado que mantém os tripulantes seguros durante viagens espaciais.
   components:
   - type: Sprite
     noRot: true

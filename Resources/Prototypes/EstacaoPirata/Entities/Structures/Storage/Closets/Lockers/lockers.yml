@@ -1,0 +1,13 @@
+# Blueshield
+- type: entity
+  id: LockerBlueshield
+  parent: LockerBaseSecure
+  name: locker do Blueshield
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: bs
+    stateDoorOpen: bs_open
+    stateDoorClosed: bs_door
+  - type: AccessReader
+    access: [["Command"]]

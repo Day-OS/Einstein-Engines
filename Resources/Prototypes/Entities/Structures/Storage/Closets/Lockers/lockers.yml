@@ -381,6 +381,21 @@
   - type: AccessReader
     access: [["Security"]]
 
+# Blueshield
+- type: entity
+  id: LockerBS
+  parent: LockerBaseSecure
+  name: Armário do BS
+  components:
+  - type: Appearance
+    visuals:
+    - type: StorageVisualizer
+      state: bs
+      state_open: bs_open
+      state_closed: bs_door
+  - type: AccessReader
+    access: [["Command"]]
+
 # Syndicate
 - type: entity
   id: LockerSyndicatePersonal

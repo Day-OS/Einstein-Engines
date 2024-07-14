@@ -307,3 +307,25 @@
     contents:
     - id: WeaponLaserCarbine
       amount: 3
+
+- type: entity
+  id: LockerBSFilled
+  suffix: Filled
+  parent: LockerBS
+  components:
+  - type: StorageFill
+    contents:
+      - id: FlashlightSeclite
+        prob: 0.8
+      - id: WeaponRevolverDeckard
+      - id: SpeedLoaderMagnum
+      - id: ClothingBeltSecurityFilled
+      - id: Flash
+        prob: 0.5
+      - id: ClothingUniformJumpsuitBlueshield
+      - id: ClothingEyesGlassesBlueshield
+      - id: ClothingHeadsetCommand
+      - id: ClothingHeadHatBeretBlueshield
+      - id: ClothingOuterVestBlueshield
+      - id: ClothingHandsGlovesColorBlack
+      - id: ClothingShoesBootsJack

@@ -1,0 +1,197 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGremio
+  name: uniforme do Grêmio
+  description: O uniforme oficial do time do Grêmio
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/gremio.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/gremio.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitInter
+  name: uniforme do Internacional
+  description: O uniforme oficial do time do Internacional
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/inter.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/inter.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBrasil
+  name: uniforme do Brasil
+  description: O uniforme oficial da seleção brasileira
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/brasil.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/brasil.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitManoelgomes
+  name: jumpsuit azul caneta
+  description: Uma jumpsuit com cor de caneta azul
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/manoelgomes.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/manoelgomes.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitAtleticoPr
+  name: uniforme do Atlético Paranaense
+  description: O uniforme oficial do time do Atlético Paranaense
+  components:
+    - type: Sprite
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/athleticopr.rsi
+    - type: Clothing
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/athleticopr.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitAtleticoMn
+  name: uniforme do Atlético Mineiro
+  description: O uniforme oficial do time do Atlético Mineiro
+  components:
+    - type: Sprite
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/atleticomn.rsi
+    - type: Clothing
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/atleticomn.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBotafogo
+  name: uniforme do Botafogo
+  description: O uniforme oficial do time do Botafogo
+  components:
+    - type: Sprite
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/botafogo.rsi
+    - type: Clothing
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/botafogo.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCorinthians
+  name: uniforme do Corinthians
+  description: O uniforme oficial do time do Corinthians
+  components:
+    - type: Sprite
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/corinthians.rsi
+    - type: Clothing
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/corinthians.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCuritiba
+  name: uniforme do Curitiba
+  description: O uniforme oficial do time do Curitiba
+  components:
+    - type: Sprite
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/coritiba.rsi
+    - type: Clothing
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/coritiba.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCruzeiro
+  name: uniforme do Cruzeiro
+  description: O uniforme oficial do time do Cruzeiro
+  components:
+    - type: Sprite
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/cruzeiro.rsi
+    - type: Clothing
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/cruzeiro.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitFlamengo
+  name: uniforme do Flamengo
+  description: O uniforme oficial da seleção do Flamengo
+  components:
+    - type: Sprite
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/flamengo.rsi
+    - type: Clothing
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/flamengo.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitFluminense
+  name: uniforme do Fluminense
+  description: O uniforme oficial do time do Fluminense
+  components:
+    - type: Sprite
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/fluminense.rsi
+    - type: Clothing
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/fluminense.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGuarani
+  name: uniforme do Guarani
+  description: O uniforme oficial do time do Guarani
+  components:
+    - type: Sprite
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/guarani.rsi
+    - type: Clothing
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/guarani.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitPalmeiras
+  name: uniforme do Palmeiras
+  description: O uniforme oficial do time do Palmeiras
+  components:
+    - type: Sprite
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/palmeiras.rsi
+    - type: Clothing
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/palmeiras.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSantos
+  name: uniforme do Santos
+  description: O uniforme oficial do time do Santos
+  components:
+    - type: Sprite
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/santos.rsi
+    - type: Clothing
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/santos.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSaoPaulo
+  name: uniforme do São Paulo
+  description: O uniforme oficial do time do São Paulo
+  components:
+    - type: Sprite
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/saopaulo.rsi
+    - type: Clothing
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/saopaulo.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSport
+  name: uniforme do Sport
+  description: O uniforme oficial do time do Sport
+  components:
+    - type: Sprite
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/sport.rsi
+    - type: Clothing
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/sport.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitVasco
+  name: uniforme do Vasco
+  description: O uniforme oficial do time do Vasco
+  components:
+    - type: Sprite
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/vasco.rsi
+    - type: Clothing
+      sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/vasco.rsi

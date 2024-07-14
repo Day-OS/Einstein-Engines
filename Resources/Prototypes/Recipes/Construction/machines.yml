@@ -1,5 +1,5 @@
 ﻿- type: construction
-  name: computer
+  name: computer frame
   id: Computer
   graph: Computer
   startNode: start
