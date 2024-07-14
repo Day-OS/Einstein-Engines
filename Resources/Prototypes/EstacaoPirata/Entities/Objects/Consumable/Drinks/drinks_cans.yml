@@ -1,0 +1,65 @@
+- type: entity
+  parent: DrinkCanBaseFull
+  id: DrinkGuaranaCan
+  name: guarana lata
+  description: Um doce e carbonatado refrigerante. Livre de cafeína.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Guarana
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Recyclable
+    - Trash
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Consumable/Drinks/guaranacan.rsi
+  - type: Item
+    sprite: EstacaoPirata/Objects/Consumable/Drinks/guaranacan.rsi
+
+- type: entity
+  parent: DrinkCanBaseFull
+  id: DrinkFantasticaCan
+  name: fantastica lata
+  description: Um doce e carbonatado refrigerante. Livre de cafeína.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Fantastica
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Recyclable
+    - Trash
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Consumable/Drinks/fantasticacan.rsi
+  - type: Item
+    sprite: EstacaoPirata/Objects/Consumable/Drinks/fantasticacan.rsi
+
+- type: entity
+  parent: DrinkCanBaseFull
+  id: DrinkSindkolCan
+  name: sindkol lata
+  description: Uma cerveja leve e suave, tipo Pilsen. Se beber, não dirija.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Sindkol
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Recyclable
+    - Trash
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Consumable/Drinks/sindkol.rsi
+  - type: Item
+    sprite: EstacaoPirata/Objects/Consumable/Drinks/sindkol.rsi

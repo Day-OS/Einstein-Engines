@@ -15,7 +15,7 @@ min_players = 90
 emergency_early_launch_allowed = true
 
 [hub]
-tags = "lang:en-US,region:am_n_e,rp:med"
+tags = "lang:pt-BR,region:am_n_e,rp:med"
 
 [atmos]
 monstermos_rip_tiles = false

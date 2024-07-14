@@ -1,0 +1,44 @@
+- type: flavor
+  id: caipirinha
+  flavorType: Complex
+  description: flavor-complex-caipirinha
+
+- type: flavor
+  id: cachaca
+  flavorType: Complex
+  description: flavor-complex-cachaca
+
+- type: flavor
+  id: guarana
+  flavorType: Complex
+  description: flavor-complex-guarana
+
+- type: flavor
+  id: pudim
+  flavorType: Complex
+  description: flavor-complex-pudim
+
+- type: flavor
+  id: pudimchocolate
+  flavorType: Complex
+  description: flavor-complex-pudimchocolate
+
+- type: flavor
+  id: fantastica
+  flavorType: Complex
+  description: flavor-complex-fantastica
+
+- type: flavor
+  id: sindkol
+  flavorType: Complex
+  description: flavor-complex-sindkol
+
+- type: flavor
+  id: corote
+  flavorType: Complex
+  description: flavor-complex-corote
+
+- type: flavor
+  id: ChocolateDerretido
+  flavorType: Complex
+  description: flavor-complex-chocolatederretido

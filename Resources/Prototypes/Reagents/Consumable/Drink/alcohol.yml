@@ -110,7 +110,7 @@
   desc: reagent-desc-dead-rum
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: rum
-  color: "#664300"
+  color: "#e74a1c"
   metamorphicSprite:
     sprite: Objects/Consumable/Drinks/rumglass.rsi
     state: icon_empty

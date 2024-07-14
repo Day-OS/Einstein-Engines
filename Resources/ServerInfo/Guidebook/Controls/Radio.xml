@@ -1,28 +1,28 @@
 <Document>
-  # Radio
+  # Rádio
 
-  Your radio allows you to communicate across the entire station and to your specific [color=#a4885c]department[/color].
+   Seu rádio permite que você se comunique com toda a estação e com seu [color=#a4885c]departamento[/color] específico.
 
-  <Box>
-    <GuideEntityEmbed Entity="ClothingHeadsetGrey"/>
-  </Box>
+   <Box>
+     <GuideEntityEmbed Entity="ClothingHeadsetGrey"/>
+   </Box>
 
-  To send a station-wide message over the radio preface your text with [color=#a4885c]semi-colon (;)[/color].
+   Para enviar uma mensagem para toda a estação pelo rádio, coloque [color=#a4885c]ponto e vírgula (;)[/color] em seu texto.
 
-  ## Departmental Radio
+   ## Rádio Departamental
 
-  You are able to send messages over your departmental radio channels using [color=#a4885c]colon (:)[/color] followed by the
-  department letter as long as you're wearing a headset with your department's encryption key.
+   Você pode enviar mensagens pelos canais de rádio do seu departamento usando [color=#a4885c]dois pontos (:)[/color] seguido pelo
+   carta do departamento, desde que você esteja usando um fone de ouvido com a chave de criptografia do seu departamento.
 
-  Examine your headset to see the department channels available to you.
+   Examine seu fone de ouvido para ver os canais de departamento disponíveis para você.
 
 <Box>
-  <GuideEntityEmbed Entity="ClothingHeadsetEngineering"/>
+   <GuideEntityEmbed Entity="ClothingHeadsetEngineering"/>
 </Box>
 
-  Examining a default engineering headset would show you the prefixes for the [color=#32cd32]Common[/color] and [color=#f37746]Engineering[/color]
-  channels.
+   Examinar um fone de ouvido de engenharia padrão mostraria os prefixos para [color=#32cd32]Comum[/color] e [color=#f37746]Engenharia[/color]
+   canais.
   
-  It is also possible to use [color=#a4885c]:h[/color]. This hotkey will automatically default to your department radio channel. For an example if you're Captain, then [color=#a4885c]:h[/color] will default to [color=#a4885c]:c[/color]
+   Também é possível usar [color=#a4885c]:h[/color]. Esta tecla de atalho será automaticamente padronizada para o canal de rádio do seu departamento. Por exemplo, se você for o capitão, [color=#a4885c]:h[/color] será padronizado como [color=#a4885c]:c[/color]
 
 </Document>

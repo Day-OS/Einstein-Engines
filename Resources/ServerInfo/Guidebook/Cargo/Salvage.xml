@@ -1,37 +1,40 @@
 <Document>
-# Salvage
+# Salvamento
 
-Salvage is one of Logistics' key sources of income... until atmos comes along with a bajillion dollars worth of frezon. Until then though, your main job will be making them money, and totally not making a shuttle
+O salvamento é uma das principais fontes de renda da Cargo... até que a Atmos chega com um bilhão de dólares em frete. Até então, porém, seu trabalho principal será ganhar dinheiro para eles, e não fazer transporte.
 
-## How to prepare for a salvage
+## Como se preparar para um resgate
 
-Firstly you need a few things before you can commence on your salvaging.
+Em primeiro lugar, você precisa de algumas coisas antes de começar a salvar.
 
 <Box>
-<GuideEntityEmbed Entity="ClothingOuterHardsuitSpatio"/>
+<GuideEntityEmbed Entity="ClothingOuterHardsuitSalvage"/>
 <GuideEntityEmbed Entity="ClothingShoesBootsMag"/>
 </Box>
-Your Hardsuit is important, as it provides EVA protection. Meaning the lack of pressure and tempurature of space wont kill you. It will also provide minor defense against any space fauna you may encounter. The magboots will ensure you can move smoothly on a salvage and pull things in and out. They also make you slip proof!
+
+Seu Hardsuit é importante, pois oferece proteção em EVA. Ou seja, a falta de pressão e temperatura do espaço não vai te matar. Também fornecerá uma pequena defesa contra qualquer fauna espacial que você possa encontrar. As magboots garantirão que você possa se mover suavemente em um salvamento e puxar e retirar coisas. Eles também tornam você à prova de escorregões!
 
 <Box>
 <GuideEntityEmbed Entity="JetpackBlue"/>
 <GuideEntityEmbed Entity="JetpackMini"/>
 </Box>
-Jetpacks will be needed to move thoughout space, since without floors and gravity, you will not be able to move. Its fueled by gases like oxygen, nitrogen, water vapor, or other gases that can be found in canisters.
+Serão necessários jetpacks para se mover pelo espaço, pois sem piso e gravidade você não conseguirá se mover. É alimentado por gases como oxigênio, nitrogênio, vapor de água ou outros gases que podem ser encontrados em recipientes.
 
 <Box>
 <GuideEntityEmbed Entity="ClothingMaskGasExplorer"/>
 <GuideEntityEmbed Entity="OxygenTankFilled"/>
 <GuideEntityEmbed Entity="NitrogenTankFilled"/>
 </Box>
-Internals will be important, given all species need to breathe, and space doesnt have any gases. Your mask is used to connect the gas tank to your mouth to breath, while the gas tanks hold consumable gases and can be refilled at gas canisters. All species breathe oxygen (blue + yellow tanks) except slimes, which need nitrogen (red tanks)
+
+O interior será importante, visto que todas as espécies precisam respirar e o espaço não contém gases. Sua máscara é usada para conectar o tanque de gás à boca para respirar, enquanto os tanques de gás contêm gases consumíveis e podem ser recarregados em botijões de gás. Todas as espécies respiram oxigênio (tanques azuis + amarelos), exceto slimes, que precisam de nitrogênio (tanques vermelhos)
 
 <Box>
 <GuideEntityEmbed Entity="WeaponCrusher"/>
 <GuideEntityEmbed Entity="WeaponCrusherDagger"/>
 <GuideEntityEmbed Entity="WeaponProtoKineticAccelerator"/>
 </Box>
-The crusher devices are your first and last line of defense against space fauna and other things that want to bring harm to logistics personnel. While the dagger is just a standard knife, the crusher is has a special property that if you shoot something with it, then follow up with a melee attack, it deals 2x more damage. The protokinetic accelerator is like a recharging weapon that can provide thrust in the scenerio that your jetpack runs dry, or mine for you.
+
+Os "Crushers" são sua primeira e última linha de defesa contra a fauna espacial e outras coisas que desejam causar danos à carga. Embora a adaga seja apenas uma faca padrão, a glaive tem uma propriedade especial que se você atirar em algo com ela e depois seguir com um ataque corpo a corpo, ela causa 2x mais dano. O acelerador protocinético é como uma arma de recarga que pode fornecer impulso no cenário em que seu jetpack seca ou o meu para você.
 
 <Box>
 <GuideEntityEmbed Entity="Pickaxe"/>
@@ -39,19 +42,22 @@ The crusher devices are your first and last line of defense against space fauna 
 <GuideEntityEmbed Entity="OreBag"/>
 <GuideEntityEmbed Entity="ClothingBeltUtilityFilled"/>
 </Box>
-The pickaxe and mining drill are both useful for mining rocks or breaking structures quickly.
-The ore bag magnetises nearby ore and automatically picks it up if equipped to a belt slot.
-The utility belt can be useful for holding miscellaneous items when not occupied by your ore bag.
 
-## How to make money as a salvager
+A picareta e a broca de mineração são úteis para minerar rochas ou quebrar estruturas rapidamente.
+O saco de minério magnetiza o minério próximo e o coleta automaticamente se equipado em uma fenda de cinto.
+O cinto de utilidades pode ser útil para guardar itens diversos quando não estiver ocupado pela bolsa auricular.
+
+## Como ganhar dinheiro como salvador
+
 <Box>
 <GuideEntityEmbed Entity="SalvageMagnet"/>
 </Box>
 <Box>
 <GuideEntityEmbed Entity="ComputerSalvageExpedition"/>
 </Box>
-There are 2 primary forms of income for salvage. The magnet and Expeditions.
-The salvage magnet, when activated, calls in one of many random salvages to be generated somewhere within space. Once you find the salvage, you will need to fight off any present space fauna as well as loot it as much possible. A salvage will only be present for 4 minutes, before dissapearing, taking everything unlooted with it. And in worse case scenerios, will take the bodies of other salvagers in critical condition or dead. Afterwards, the magnet needs some time to recharge before being usable again.
-Expeditions are like adventures that you can do with your salvage buddies. First you must pick a mission from the salvage console, each of which of varying difficulty and reward. Afterwards you must FTL to the location via a shuttle. Once you arrive, the chat will tell you in which direction the dungeon of the salvage is, and you must go and conquer the dangers and gain the loot!
+
+Existem duas formas principais de renda para salvamento. O ímã e as expedições.
+O ímã de salvamento, quando ativado, chama um dos muitos salvamentos aleatórios a serem gerados em algum lugar do espaço. Depois de encontrar o resgate, você precisará lutar contra qualquer fauna espacial presente e saqueá-lo o máximo possível. Um salvamento só estará presente por 4 minutos, antes de desaparecer, levando consigo tudo o que for descoberto. E, na pior das hipóteses, levarão os corpos de outros salvadores em estado crítico ou mortos. Depois disso, o ímã precisa de algum tempo para recarregar antes de poder ser usado novamente.
+As expedições são como aventuras que você pode fazer com seus companheiros de resgate. Primeiro você deve escolher uma missão no console de salvamento, cada uma com dificuldade e recompensa variadas. Depois disso, você deverá chegar ao local através de uma nave. Assim que você chegar, o chat lhe dirá em que direção está a masmorra da salvação, e você deve ir e vencer os perigos e ganhar o saque!
 
 </Document>

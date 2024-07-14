@@ -39,5 +39,6 @@
     DrinkSojuBottleFull: 2 # DeltaV - Soju bottle
     DrinkBeerCan: 5
     DrinkWineCan: 5
+    DrinkCoroteBottleFull: 10
   emaggedInventory:
     DrinkPoisonWinebottleFull: 2

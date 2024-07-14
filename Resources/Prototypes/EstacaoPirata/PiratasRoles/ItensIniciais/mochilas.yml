@@ -1,0 +1,34 @@
+# Mochilas customizada para eventos
+
+- type: entity
+  parent: ClothingBackpackSecurity
+  id: ClothingBackpackSoldado
+  noSpawn: true
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvival
+      - id: WeaponRifleLecter
+      - id: Stunbaton
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackSatchelSecurity
+  id: ClothingBackpackSatchelSoldado
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvival
+      - id: WeaponRifleLecter
+      - id: Stunbaton
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackDuffelSecurity
+  id: ClothingBackpackDuffelSoldado
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvival
+      - id: WeaponRifleLecter
+      - id: Stunbaton

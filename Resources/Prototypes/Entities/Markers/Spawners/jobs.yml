@@ -536,6 +536,19 @@
     layers:
       - state: green
       - state: detective
+      
+- type: entity
+  id: SpawnPointBS
+  parent: SpawnPointJobBase
+  name: blueshield
+  components:
+  - type: SpawnPoint
+    job_id: Blueshield
+  - type: Sprite
+    layers:
+      - state: green
+      - state: blueshield
+
 
 - type: entity
   id: SpawnPointBrigmedic

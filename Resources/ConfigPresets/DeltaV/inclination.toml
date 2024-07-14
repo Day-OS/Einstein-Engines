@@ -14,4 +14,4 @@ map_enabled = true
 enable_during_round = true
 
 [hub]
-tags = "lang:en-US,region:eu_w,rp:med"
+tags = "lang:pt-BR,region:eu_w,rp:med"

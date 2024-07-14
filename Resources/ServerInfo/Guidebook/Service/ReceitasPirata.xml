@@ -1,0 +1,91 @@
+<Document>
+# Receitas unicas do Pirata
+Essa é uma lista de receitas unicas do pirata. Mais poderão ser adicionadas no futuro, então fique de olho.
+
+Algumas delas é necessário somente um Beaker, outras devem ser feitas no micro-ondas.
+
+## Cacau quente e Chocolate derretido
+Cacau quente utilizado para fazer seu amado chocolate quente.
+Chocolate derretido utilizado para algumas receitas de lanches e sobremesas.
+
+- Chocolate derretido: 0.5 pó de cacau + 0.5 de açucar = 1 Chocolate derretido.
+- Cacau quente: 1 água + 1 de pó de cacau = 2 Cacau quente.
+
+Os ingredientes devem ser colocados em um beaker e esquentado no micro-ondas por pelo menos 15 segundos.
+
+## Pudim
+Pudins feitos com carinho pelo seu chef local!
+
+- Pudim = 10 de creme, 1 ovo (6u), 5 de açucar, 5 de água e um prato grande por 15 segundos no micro-ondas.
+- Pudim de chocolate = 10 de creme, 1 ovo (6u), 5 de açucar, 5 de água, 10 de chocolate derretido e um prato grande por 15 segundos.
+
+<Box>
+<GuideEntityEmbed Entity="FoodPuddingNormal" Caption="Pudim Comum"/>
+<GuideEntityEmbed Entity="FoodPuddingChocolate" Caption="Pudim de chocolate"/>
+</Box>
+
+## Sorvetes
+Sorvetes geladinhos e deliciosos para esfriar o corpo.
+
+- Cornuto = 5 de leite, 5 de chocolate derretido, 10 de sorvete e 5 gelo
+- Snow Cone = 10 de gelo e 10 de sorvete
+- Sorvete gigante = 10 de chocolate derretido, 10 de sorvete e 5 de gelo
+- Sanduíche de sorvete = 5 de chocolate derretido, 10 de sorvete, 5 de creme e 5 de gelo
+- Sanduíche de sorvete de morango = 10 de sorvete, 10 de suco de berries, 5 de creme e 5 de gelo
+- Picolé de frutas vermelhas = 10 de sorvete, 5 de suco de berries, 5 de creme e 5 de gelo
+- Picolé de laranja = 10 de sorvete, 5 de suco de laranja, 5 de creme e 5 de gelo.
+
+<Box>
+<GuideEntityEmbed Entity="FoodFrozenCornuto" Caption="Cornuto"/>
+<GuideEntityEmbed Entity="FoodFrozenSnowconeBase" Caption="Snow Cone"/>
+<GuideEntityEmbed Entity="FoodFrozenPopsicleJumbo" Caption="Sorvete Gigante"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="FoodFrozenSandwich" Caption="Sanduíche de sorvete"/>
+<GuideEntityEmbed Entity="FoodFrozenSandwichStrawberry" Caption="Sanduíche de sorvete de morango"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="FoodFrozenPopsicleBerry" Caption="Picolé de frutas vermelhas"/>
+<GuideEntityEmbed Entity="FoodFrozenPopsicleOrange" Caption="Picolé de laranja"/>
+</Box>
+
+## Muffins
+Um pequeno bolinho.
+
+- Muffin Comum = 5 de farinha, 1 ovo (6u) e um prato pequeno por 10 segundos.
+- Muffin de Berry = 5 de faria, 1 ovo (6u), um prato pequeno e 2 berries por 10 segundos.
+
+<Box>
+<GuideEntityEmbed Entity="FoodBakedMuffin" Caption="Muffin Comum"/>
+<GuideEntityEmbed Entity="FoodBakedMuffinBerry" Caption="Muffin de Berry"/>
+</Box>
+
+## Nachos
+Quem não gosta de nachos?
+
+Para fazer os nachos primeiro você deve fazer a massa de tortilhas: 15 de farinha de milho + 10 de água
+Após fazer a massa corte com uma faca e você terá 3 fatias de massa de tortilha.
+
+- Nachos comum = 5 de sal e 3 fatias de massa de tortilha por 10 segundos.
+- Nachos com queijo = 1 Nachos comum e 2 fatias de queijo por 5 segundos.
+- Nachos cubanos = 1 Nachos comum e uma pimenta por 5 segundos.
+
+<Box>
+<GuideEntityEmbed Entity="FoodMealNachos" Caption="Nachos comum"/>
+<GuideEntityEmbed Entity="FoodMealNachosCheesy" Caption="Nachos com queijo"/>
+<GuideEntityEmbed Entity="FoodMealNachosCuban" Caption="Nachos cubanos"/>
+</Box>
+
+## Misc
+
+- Pretzel = 5 de açucar e 1 massa comum por 10 segundos
+- Almôndega = 1 ovo (6u), 5 de farinha, 5 de proteina de animal crua.
+- Salame = 1 almôndega e 4 fatias de carne crua por 5 segundos.
+<Box>
+<GuideEntityEmbed Entity="FoodBakedPretzel" Caption="Pretzel"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="FoodMeatMeatball" Caption="Almôndega"/>
+<GuideEntityEmbed Entity="FoodMeatSalami" Caption="Salame"/>
+</Box>
+</Document>

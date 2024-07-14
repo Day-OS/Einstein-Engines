@@ -234,3 +234,17 @@
   - type: Clothing
     sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
   - type: FlashImmunity
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesBlueshield
+  name: Óculos de Blueshield
+  description: Óculos de segurança aprimorados com nanofibras de plastitânio, usado pelo mais poderoso guarda costas glorificado.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Glasses/blueshieldglasses.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Glasses/blueshieldglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 10

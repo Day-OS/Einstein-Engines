@@ -1,0 +1,19 @@
+# Criação de acessos proprio para facções neutras de planetas e cidades
+- type: accessLevel
+  id: Cidadao
+  name: Cidadao
+
+- type: accessLevel
+  id: Comerciante
+  name: Comerciante
+
+- type: accessLevel
+  id: Policia
+  name: Policia
+
+- type: accessGroup
+  id: Cidade
+  tags:
+  - Cidadao
+  - Comerciante
+  - Policia

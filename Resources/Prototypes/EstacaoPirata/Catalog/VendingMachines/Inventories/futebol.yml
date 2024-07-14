@@ -1,0 +1,22 @@
+- type: vendingMachineInventory
+  id: FutebolInventory
+  startingInventory:
+    ClothingUniformJumpsuitBrasil: 2
+    ClothingUniformJumpsuitGremio: 2
+    ClothingUniformJumpsuitInter: 2
+    ClothingUniformJumpsuitAtleticoPr: 2
+    ClothingUniformJumpsuitAtleticoMn: 2
+    ClothingUniformJumpsuitBotafogo: 2
+    ClothingUniformJumpsuitCorinthians: 2
+    ClothingUniformJumpsuitCuritiba: 2
+    ClothingUniformJumpsuitCruzeiro: 2
+    ClothingUniformJumpsuitFlamengo: 2
+    ClothingUniformJumpsuitFluminense: 2
+    ClothingUniformJumpsuitGuarani: 2
+    ClothingUniformJumpsuitPalmeiras: 2
+    ClothingUniformJumpsuitSantos: 2
+    ClothingUniformJumpsuitSaoPaulo: 2
+    ClothingUniformJumpsuitSport: 2
+    ClothingUniformJumpsuitVasco: 2
+  emaggedInventory:
+    ClothingUniformJumpsuitManoelgomes: 2

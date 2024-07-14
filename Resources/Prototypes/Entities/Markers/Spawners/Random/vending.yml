@@ -31,4 +31,7 @@
       - VendingMachineSoda
       - VendingMachineStarkist
       - VendingMachineSpaceUp
+      - VendingMachineBrazuca
+      - VendingMachineFutebol
+      - VendingMachineFutebol
     chance: 1

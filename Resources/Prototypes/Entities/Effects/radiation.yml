@@ -1,8 +1,8 @@
 - type: entity
-  name: shimmering anomaly
+  name: Anomalia cintilante
   id: RadiationPulse
   noSpawn: true
-  description: Looking at this anomaly makes you feel strange, like something is pushing at your eyes.
+  description: Olhar para essa anomalia faz você se sentir estranho, como se algo estivesse empurrando seus olhos.
   components:
   - type: RadiationSource
     intensity: 5

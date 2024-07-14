@@ -42,9 +42,15 @@
   text: "/ServerInfo/Guidebook/Service/Chef.xml"
   children:
   - Food Recipes
+  - Food Pirata
 
 - type: guideEntry
   id: Food Recipes
   name: guide-entry-foodrecipes
   text: "/ServerInfo/Guidebook/Service/FoodRecipes.xml"
+
+- type: guideEntry
+  id: Food Pirata
+  name: guide-entry-foodpirata
+  text: "/ServerInfo/Guidebook/Service/ReceitasPirata.xml"
 
